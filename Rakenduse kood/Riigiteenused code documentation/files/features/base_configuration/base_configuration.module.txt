@@ -1,0 +1,60 @@
+<?php
+/**
+ * @file
+ * Code for the Base configuration feature.
+ */
+
+include_once 'base_configuration.features.inc';
+
+/**
+ * Implements hook_css_alter().
+ *
+ * Change default logic of CSS.
+ */
+function base_configuration_css_alter(&$css) {
+  global $theme_key;
+  // Get current themes path.
+  $theme_path = drupal_get_path('theme', variable_get('theme_default', NULL));
+  // Get module themes path.
+  $module_path = drupal_get_path('module', 'vp_core');
+
+  // Make alpha-reset.css be the first css to be loaded in HTML.
+  if (array_key_exists('sites/all/themes/omega/alpha/css/alpha-reset.css', $css)) {
+    $css['sites/all/themes/omega/alpha/css/alpha-reset.css']['group'] = -9999;
+  }
+
+  // CSS to remove.
+  $exclude = array(
+    'modules/system/system.menus.css' => FALSE,
+    'sites/all/modules/field_group/horizontal-tabs/horizontal-tabs.css' => FALSE,
+    'sites/all/modules/mobile_navigation/mobile_navigation.css' => FALSE,
+  );
+  $css = array_diff_key($css, $exclude);
+
+  // Key in $change_path is theme path to css, value is $css key.
+  $change_path = array(
+    'sites/all/themes/omega/omega/css/formalize.css' => 'formalize.css',
+    'sites/all/themes/omega/alpha/css/alpha-reset.css' => 'alpha-reset.css',
+    'sites/all/libraries/flexslider/flexslider.css' => 'flexslider.css',
+  );
+
+  foreach ($change_path as $css_original_path => $file_name) {
+    if (array_key_exists($css_original_path, $css)) {
+      $css[$css_original_path]['data'] = $theme_path . '/css/' . $file_name;
+    }
+  }
+}
+
+/**
+ * Implements hook_block_info_alter().
+ */
+function base_configuration_block_info_alter(&$blocks, $theme, $code_blocks) {
+  if ($theme == 'vp_theme') {
+    $blocks['delta_blocks']['logo']['status'] = 1;
+    $blocks['delta_blocks']['logo']['region'] = 'header';
+
+    $blocks['delta_blocks']['messages']['status'] = 1;
+    $blocks['delta_blocks']['messages']['region'] = 'content';
+  }
+}
+

@@ -1,0 +1,467 @@
+<?php
+/**
+ * @file
+ * Code for the Teenus feature.
+ */
+
+include_once 'teenus.features.inc';
+
+/*
+ * Configuration on VP application side.
+ * Those constant used for "Asutus" filter configuration:
+ * - Filter is hidden for VP institution service provider.
+ * - Only ministry's institution list is shown for VP ministry service provider.
+ * - Ministry (without institutions) list is shown for VP government
+ *   service provider.
+ *
+ * >>> NB! Only one provider constant can be TRUE simultaneously! <<<
+ */
+/**
+ * TRUE if module allocated in riigiteenused application.
+ */
+define('HOST_APPLICATION', TRUE);
+/**
+ * Does current VP application is institution?
+ */
+define('VP_SERVICE_PROVIDER_INSTITUTION', FALSE);
+/**
+ * Does current VP application is ministry?
+ * @VP_SERVICE_PROVIDER should be defined if true.
+ */
+define('VP_SERVICE_PROVIDER_MINISTRY', FALSE);
+/**
+ * Exactly same term name like in "Valitsuse puu"!
+ * This constant affects on search institution filter
+ * @see teenus_form_alter().
+ * and pre-defines contextual filter in institution / ministry views.
+ * @see teenus_views_pre_view().
+ */
+define('VP_SERVICE_PROVIDER', 'Majandus- ja Kommunikatsiooniministeerium');
+/**
+ * Does current VP application is government?
+ */
+define('VP_SERVICE_PROVIDER_GOVERNMENT', TRUE);
+/**
+ * Service main applications URL.
+ */
+define('SERVICE_APPLICATION_URL', 'http://test.riigiteenused.ee');
+
+/**
+ * Implements hook_init().
+ */
+function teenus_init() {
+  drupal_add_css(drupal_get_path('module', 'teenus') . '/css/riigiteenused.css');
+  drupal_add_js(drupal_get_path('module', 'teenus') . '/js/riigiteenused.js', array(
+    'type' => 'file',
+    'scope' => 'footer',
+  ));
+}
+
+/**
+ * Implements hook_node_presave().
+ */
+function teenus_node_presave($node) {
+  $node->field_t_varu_title['und'][0]['value'] = isset($node->title) ? $node->title : '';
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function teenus_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'views_exposed_form') {
+    /*
+     * Show only year that have measured channels.
+     */
+    if (isset($form['field_fcf_mootmise_aasta_tid'])
+      && is_array($form['field_fcf_mootmise_aasta_tid']['#options'])
+    ) {
+      $arg = arg();
+      $institution_term_tid = array_pop($arg);
+      $institution_term_tid = is_numeric($institution_term_tid) ? $institution_term_tid : NULL;
+      $options_list = $form['field_fcf_mootmise_aasta_tid']['#options'];
+      foreach ($options_list as $tid => $name) {
+        if (!_teenus_get_check_for_measured_channels($tid, $institution_term_tid) && $tid != 'All') {
+          unset($form['field_fcf_mootmise_aasta_tid']['#options'][$tid]);
+        }
+      }
+    }
+
+    /*
+     * Changes for service search view.
+     */
+
+    /*
+     * Placeholder for title filter field (main search field).
+     */
+    if (isset($form['title-search'])) {
+      $form['title-search']['#attributes']['placeholder'] = t('Sisesta märksõna');
+      // Kirjeldus field search should be hidden and value automatically added
+      // in query_alter hook.
+      drupal_add_css('#edit-field-t-kirjeldus-value-wrapper {display:none;}', array('type' => 'inline'));
+    }
+
+    /*
+     * Show only channels of second lvl > no main terms are displayed.
+     */
+    if (isset($form['field_fcf_kanal_tid'])
+      && is_array($form['field_fcf_kanal_tid']['#options'])
+    ) {
+      if ($channels_voc = taxonomy_vocabulary_machine_name_load('kanaalide_struktuur')) {
+        unset($form['field_fcf_kanal_tid']['#options']);
+        $channels  = taxonomy_get_tree($channels_voc->vid);
+        if (is_array($channels)) {
+          foreach ($channels as $channel_term) {
+            if (taxonomy_get_parents($channel_term->tid) == array()) {
+              continue;
+            }
+            $term_object = new stdClass();
+            $term_object->option[$channel_term->tid] = $channel_term->name;
+            $form['field_fcf_kanal_tid']['#options'][] = $term_object;
+          }
+        }
+      }
+    }
+
+    /*
+     * Show institutions / ministries list according to configuration in
+     * the beginning of the file.
+     */
+    if (isset($form['field_t_allasutuse_reference_tid'])
+      && is_array($form['field_t_allasutuse_reference_tid']['#options'])
+      && !HOST_APPLICATION
+    ) {
+      switch (TRUE) {
+        case VP_SERVICE_PROVIDER_INSTITUTION:
+          // Hide institution filter.
+          $form['field_t_allasutuse_reference_tid']['#access'] = FALSE;
+          drupal_add_css('#edit-field-t-allasutuse-reference-tid-wrapper {display:none;}', array('type' => 'inline'));
+          break;
+
+        case VP_SERVICE_PROVIDER_MINISTRY:
+          // Show only define ministry's institutions.
+          if ($ministry_term = taxonomy_get_term_by_name(VP_SERVICE_PROVIDER, 'valitsuse_puu')) {
+            $child_terms = taxonomy_get_children(key($ministry_term));
+            unset($form['field_t_allasutuse_reference_tid']['#options']);
+            $form['field_t_allasutuse_reference_tid']['#options']['All'] = '-Any-';
+            foreach ($child_terms as $tid => $term_object) {
+              $nodes = taxonomy_select_nodes($term_object->tid, FALSE);
+              // Show only terms with nodes.
+              if (!empty($nodes)) {
+                $option_object = new stdClass();
+                $option_object->option[$tid] = $term_object->name;
+                $form['field_t_allasutuse_reference_tid']['#options'][] = $option_object;
+              }
+            }
+          }
+          else {
+            drupal_set_message(t('Palun kontrollige teenuse mooduli konfiguratsiooni! Ministeeriumi term-i nimi on vale või term ei eksisteeri!'), 'error');
+          }
+          break;
+
+        case VP_SERVICE_PROVIDER_GOVERNMENT:
+          // Show only terms with nodes.
+          $options = $form['field_t_allasutuse_reference_tid']['#options'];
+          foreach ($options as $key => $option) {
+            $keys = array_keys($option->option);
+            $term = taxonomy_term_load($keys[0]);
+            $nodes = taxonomy_select_nodes($term->tid, FALSE);
+            $parents = taxonomy_get_parents($term->tid);
+
+            if (empty($nodes) && !empty($parents)) {
+              unset($form['field_t_allasutuse_reference_tid']['#options'][$key]);
+            }
+          }
+          break;
+      }
+    }
+
+    // Add select2 library.
+    if ($form['#id'] == 'views-exposed-form-teenuste-otsing-teenuste-otsing-page') {
+      drupal_add_css(drupal_get_path('module', 'teenus') . '/libraries/select2/css/select2.min.css');
+      drupal_add_js(drupal_get_path('module', 'teenus') . '/libraries/select2/js/select2.min.js', array(
+        'type' => 'file',
+        'scope' => 'footer',
+      ));
+      drupal_add_js(drupal_get_path('module', 'teenus') . '/js/teenus.js', array(
+        'type' => 'file',
+        'scope' => 'footer',
+      ));
+    }
+
+  }
+}
+
+/**
+ * Implements hook_views_pre_view().
+ */
+function teenus_views_pre_view(&$view, &$display_id, &$args) {
+  if (($view->name == 'teenuste_statistika' || $view->name == 'ministeeriumi_teenuste_statistika')
+    && ($display_id == 'allasutuse_teenused_numbrites' || $display_id == 'ministeeriumi_teenused_numbrites')
+  ) {
+    if (!HOST_APPLICATION) {
+      $args[] = key(taxonomy_get_term_by_name(VP_SERVICE_PROVIDER, 'valitsuse_puu'));
+    }
+    else {
+      global $user;
+      $loaded_user = user_load($user->uid);
+      $args[] = isset($loaded_user->field_u_asutus[LANGUAGE_NONE]) ? $loaded_user->field_u_asutus[LANGUAGE_NONE][0]['tid'] : '';
+    }
+  }
+}
+
+/**
+ * Implements hook_views_query_alter().
+ */
+function teenus_views_query_alter(&$view, &$query) {
+  /*
+   * Alter service search view's query.
+   * Description value should also be the same as title field. Entered
+   * description value should be used if was entered.
+   */
+  if ($view->name == 'teenuste_otsing') {
+    if (isset($view->exposed_input['title-search'])
+      && !empty($view->exposed_input['title-search'])
+    ) {
+      unset($query->where[1]);
+
+      $query->add_where(0,
+        db_or()
+          ->condition('title', "%" . $view->exposed_input['title-search'] . "%", 'LIKE')
+          ->condition('field_t_kirjeldus_value', "%" . $view->exposed_input['title-search'] . "%", 'LIKE')
+      );
+    }
+
+    if (isset($view->exposed_input['field_t_allasutuse_reference_tid'])
+      && !empty($view->exposed_input['field_t_allasutuse_reference_tid'])
+      && is_array($view->exposed_input['field_t_allasutuse_reference_tid'])
+    ) {
+      $terms = array_values($view->exposed_input['field_t_allasutuse_reference_tid']);
+      $ministry_institution_terms_total = array();
+
+      foreach ($terms as $tid) {
+        if (taxonomy_get_parents($tid) === array() && taxonomy_term_load($tid)) {
+          $ministry_institution_terms = array_keys(taxonomy_get_children($tid));
+          $ministry_institution_terms_total = array_merge($ministry_institution_terms_total, $ministry_institution_terms);
+          $filter_values = $query->where[3]['conditions'];
+          foreach ($filter_values as $key => $filter) {
+            if ($filter['field'] === 'field_data_field_t_allasutuse_reference.field_t_allasutuse_reference_tid') {
+              unset($query->where[3]['conditions'][$key]);
+              break;
+            }
+          }
+        }
+      }
+      if (!empty($ministry_institution_terms_total)) {
+        $query->add_table('field_data_field_t_allasutuse_reference', 'node');
+        $query->add_where(1, 'field_data_field_t_allasutuse_reference.field_t_allasutuse_reference_tid', $ministry_institution_terms_total, 'IN');
+      }
+    }
+  }
+}
+
+/*
+ * Utility functions.
+ */
+
+/**
+ * Get service's most important URL.
+ *
+ * Function will collect service's all channels URL from field collections,
+ * sort them according to channel term's hierarchical position in taxonomy and
+ * return most important channel's URL.
+ *
+ * @param object $node
+ *   node object.
+ *
+ * @return bool|mixed
+ *   URL of false if no url found.
+ */
+function _teenus_get_most_important_channel_link($node) {
+  $url = FALSE;
+  $measured_years = field_get_items('node', $node, 'field_c_mootmise_aasta');
+  if ($measured_years) {
+    $channels_urls = array();
+    foreach ($measured_years as $year_fc_id) {
+      $year_fc = field_collection_item_load($year_fc_id['value']);
+      $year_measured_channels = field_get_items('field_collection_item', $year_fc, 'field_fcf_mootmise_kanal');
+      if ($year_measured_channels) {
+        foreach ($year_measured_channels as $measured_channel_fc_id) {
+          $measured_channel_fc
+            = field_collection_item_load($measured_channel_fc_id['value']);
+          $channel_term
+            = isset($measured_channel_fc->field_fcf_kanal[LANGUAGE_NONE]) ? taxonomy_term_load($measured_channel_fc->field_fcf_kanal[LANGUAGE_NONE][0]['tid']) : FALSE;
+          if ($channel_term) {
+            $channels_urls[$channel_term->hweight]
+              = isset($measured_channel_fc->field_fcf_viide_teenusele[LANGUAGE_NONE]) ? $measured_channel_fc->field_fcf_viide_teenusele[LANGUAGE_NONE][0]['url'] : '';
+          }
+        }
+      }
+    }
+    ksort($channels_urls);
+    $url = array_shift($channels_urls);
+  }
+
+  return $url;
+}
+
+/**
+ * Search for measured channels on passed year term.
+ *
+ * Will also check if those nodes are referenced to passed institution term, if
+ * not null.
+ *
+ * @param int $year_term_tid
+ *   Year term id
+ * @param int $institution_term_tid
+ *   Institution term id. Might be NULL
+ *
+ * @return bool
+ *   Does any channel was measured in this institution?
+ */
+function _teenus_get_check_for_measured_channels($year_term_tid, $institution_term_tid) {
+  $result = FALSE;
+
+  if (taxonomy_term_load($year_term_tid)) {
+    $query = new EntityFieldQuery();
+    $measured_years_fc = $query->entityCondition('entity_type', 'field_collection_item')
+      ->entityCondition('bundle', 'field_c_mootmise_aasta')
+      ->fieldCondition('field_fcf_mootmise_aasta', 'tid', $year_term_tid)
+      ->execute();
+    if (isset($measured_years_fc['field_collection_item'])) {
+      $measured_years_fc_ids = array_keys($measured_years_fc['field_collection_item']);
+      $sub_query  = new EntityFieldQuery();
+      $sub_query->entityCondition('entity_type', 'node')
+        ->entityCondition('bundle', 'teenus')
+        ->fieldCondition('field_c_mootmise_aasta', 'value', $measured_years_fc_ids, 'IN');
+      if (!is_null($institution_term_tid)) {
+        $children = taxonomy_get_children($institution_term_tid);
+        if (!empty($children)) {
+          $sub_query->fieldCondition('field_t_allasutuse_reference', 'tid', array_keys($children), 'IN');
+        }
+        else {
+          $sub_query->fieldCondition('field_t_allasutuse_reference', 'tid', $institution_term_tid);
+        }
+      }
+      $services = $sub_query->execute();
+
+      $result = !empty($services);
+    }
+  }
+
+  return $result;
+}
+
+/**
+ * Get passed service's statistics array.
+ *
+ * Function calculates passed service's statistics and return array with total
+ * statistic numbers for passed year or all years together if no year passed.
+ *
+ * @param int $nid
+ *   service node's nid
+ * @param int $year
+ *   year term's tid
+ *
+ * @return array
+ *   service's statistics
+ */
+function _teenus_get_statistics($nid, $year) {
+  $channels_statistics = array();
+
+  if ($service_node = node_load($nid)) {
+    $year = is_numeric($year) ? $year : FALSE;
+    $measured_years = field_get_items('node', $service_node, 'field_c_mootmise_aasta');
+    if (is_array($measured_years) && !empty($measured_years)) {
+      foreach ($measured_years as $measured_years_fc_block) {
+        $measured_years_fc = field_collection_item_load($measured_years_fc_block['value']);
+        // Year filter selected.
+        if ($year
+          && isset($measured_years_fc->field_fcf_mootmise_aasta[LANGUAGE_NONE])
+          && $year == $measured_years_fc->field_fcf_mootmise_aasta[LANGUAGE_NONE][0]['tid']
+        ) {
+          _teenus_extract_year_channel_statistics($measured_years_fc, $channels_statistics);
+        }
+        // Year filter NOT selected.
+        elseif (!$year) {
+          _teenus_extract_year_channel_statistics($measured_years_fc, $channels_statistics);
+        }
+        else {
+          continue;
+        }
+      }
+    }
+  }
+
+  if (!empty($channels_statistics)) {
+    $ref = $channels_statistics;
+    foreach ($ref as $channel_name => $stat) {
+      if ($channels_statistics[$channel_name]['rahuolu_counter'] !== 0) {
+        $channels_statistics[$channel_name]['rahuolu']
+          = round($channels_statistics[$channel_name]['rahuolu'] / $channels_statistics[$channel_name]['rahuolu_counter'], 2);
+      }
+
+      /*
+       * Total statistics are calculated here because at this point channels
+       * with same names (measured in different years: 2011, 2013... etc) are
+       * already grouped together so rahuolu counter's value are incremented
+       * once per channel name not simply be channel no matter what name it
+       * have.
+       */
+      @$channels_statistics['total']['osutamis_arv']
+        += $channels_statistics[$channel_name]['osutamis_arv'];
+      @$channels_statistics['total']['rahuolu']
+        += $channels_statistics[$channel_name]['rahuolu'];
+      @$channels_statistics['total']['halduskulu']
+        += $channels_statistics[$channel_name]['halduskulu'];
+      @$channels_statistics['total']['halduskormus']
+        += $channels_statistics[$channel_name]['halduskormus'];
+      @$channels_statistics['total']['rahuolu_counter']
+        += !empty($channels_statistics[$channel_name]['rahuolu']) ? 1 : 0;
+    }
+
+    if ($channels_statistics['total']['rahuolu_counter'] !== 0) {
+      $channels_statistics['total']['rahuolu']
+        = round($channels_statistics['total']['rahuolu'] / $channels_statistics['total']['rahuolu_counter'], 2);
+    }
+  }
+
+  return $channels_statistics;
+}
+
+/**
+ * Extract year statistics.
+ *
+ * Function extracts all statistics from passed measured year field collection
+ * object. Extracted statistics will be added to the $channels_statistics
+ * array, passed by reference.
+ *
+ * @param object $measured_years_fc
+ *   measured year field collection object.
+ * @param array &$channels_statistics
+ *   channel statistics passed by reference.
+ */
+function _teenus_extract_year_channel_statistics($measured_years_fc, &$channels_statistics) {
+
+  $measured_channels = field_get_items('field_collection_item', $measured_years_fc, 'field_fcf_mootmise_kanal');
+  if (!empty($measured_channels)) {
+    foreach ($measured_channels as $measured_channels_fc_block) {
+      $measured_channels_fc = field_collection_item_load($measured_channels_fc_block['value']);
+      if (isset($measured_channels_fc->field_fcf_kanal[LANGUAGE_NONE])
+        && $channel_term = taxonomy_term_load($measured_channels_fc->field_fcf_kanal[LANGUAGE_NONE][0]['tid'])
+      ) {
+        @$channels_statistics[$channel_term->name]['osutamis_arv']
+          += $measured_channels_fc->field_fcf_osutamiste_arv[LANGUAGE_NONE][0]['value'];
+        @$channels_statistics[$channel_term->name]['rahuolu']
+          += $measured_channels_fc->field_fcf_aasta_rahulolu[LANGUAGE_NONE][0]['value'];
+        @$channels_statistics[$channel_term->name]['halduskulu']
+          += $measured_channels_fc->field_fcf_aasta_halduskulu[LANGUAGE_NONE][0]['value'];
+        @$channels_statistics[$channel_term->name]['halduskormus']
+          += $measured_channels_fc->field_fcf_ajakulu_klientidele[LANGUAGE_NONE][0]['value'];
+        @$channels_statistics[$channel_term->name]['rahuolu_counter']
+          += !empty($measured_channels_fc->field_fcf_aasta_rahulolu[LANGUAGE_NONE][0]['value']) ? 1 : 0;
+      }
+
+    }
+  }
+}
+

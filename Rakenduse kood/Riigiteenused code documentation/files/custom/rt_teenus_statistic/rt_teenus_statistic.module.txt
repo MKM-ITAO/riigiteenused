@@ -1,0 +1,59 @@
+<?php
+/**
+ * @file
+ * Teenus content statistics.
+ *
+ * Module re-generates service's statistics each time after node is saved.
+ * Statistics is based on entered channel's years statistics and total numbers
+ * are saved into static fields (see Statistika fields group).
+ */
+
+/**
+ * Implements hook_node_presave().
+ */
+function rt_teenus_statistic_node_presave($node) {
+  if ($node->type == 'teenus') {
+    // Calculate static statistics if at least one channel statistics are added.
+    if ($years_statistics = field_get_items('node', $node, 'field_c_mootmise_aasta')) {
+      $channels = array();
+      $total_statistics = array(
+        'expenses' => 0,
+        'satisfaction' => 0,
+        'time_spent' => 0,
+        'usage_number' => 0,
+      );
+      if (is_array($years_statistics)) {
+        foreach ($years_statistics as $measurement_year) {
+          if (isset($measurement_year['field_fcf_mootmise_kanal'])) {
+            foreach ($measurement_year['field_fcf_mootmise_kanal'][LANGUAGE_NONE] as $channel_statictics) {
+              if (!is_array($channel_statictics)) {
+                continue;
+              }
+              $channels[] = $channel_statictics['field_fcf_kanal'][LANGUAGE_NONE][0]['tid'];
+              $total_statistics['expenses']
+                += $channel_statictics['field_fcf_aasta_halduskulu'][LANGUAGE_NONE][0]['value'];
+              $total_statistics['satisfaction']
+                += $channel_statictics['field_fcf_aasta_rahulolu'][LANGUAGE_NONE][0]['value'];
+              $total_statistics['time_spent']
+                += $channel_statictics['field_fcf_ajakulu_klientidele'][LANGUAGE_NONE][0]['value'];
+              $total_statistics['usage_number']
+                += $channel_statictics['field_fcf_osutamiste_arv'][LANGUAGE_NONE][0]['value'];
+            }
+          }
+        }
+
+        if (!empty($channels)) {
+          $node->field_t_maksumus[LANGUAGE_NONE][0]['value']
+            = $total_statistics['expenses'];
+          $node->field_t_rahulolu[LANGUAGE_NONE][0]['value']
+            = $total_statistics['satisfaction'] / count($channels);
+          $node->field_t_kliendihaldus_koormus[LANGUAGE_NONE][0]['value']
+            = $total_statistics['time_spent'];
+          $node->field_t_osutatud_teenuste_arv[LANGUAGE_NONE][0]['value']
+            = $total_statistics['usage_number'];
+        }
+      }
+    }
+  }
+}
+
