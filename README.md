@@ -1,2 +1,2 @@
-# riigiteenused
-riigiteenuste kaardistamise ja kirjeldamise projekt
+# Riigiteenused
+Riigiteenuste kaardistamise ja kirjeldamise projekt
