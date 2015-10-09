@@ -8,4 +8,5 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - [Teenuste kaardistamise keskkond](https://www.riigiteenused.ee/ "https://www.riigiteenused.ee/") (nõutav kasutajakonto olemasolu, pead olema asutuse poolt määratud teenuse kirjeldajaks).
 - [Juhendid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Juhendid "https://github.com/MKM-ITAO/riigiteenused/tree/master/Juhendid").
 - [Rakenduse kood](https://github.com/MKM-ITAO/riigiteenused/tree/master/Rakenduse%20kood/Riigiteenused%20code%20documentation "https://github.com/MKM-ITAO/riigiteenused/tree/master/Rakenduse%20kood/Riigiteenused%20code%20documentation") (on veel täiendamisel).
+- [Probleemid, ettepanekud](https://github.com/MKM-ITAO/riigiteenused/issues "https://github.com/MKM-ITAO/riigiteenused/issues")
 
