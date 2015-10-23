@@ -1,8 +1,7 @@
 ##Üldised küsimused: 
 
 - Kuidas suhtuda teenustesse, kus üks asutus pakub teisele asutusele teenust? 
-
-Samasuguselt nagu teenustesse, mida osutatakse kodanikule või ettevõtjale. 
+  Samasuguselt nagu teenustesse, mida osutatakse kodanikule või ettevõtjale. 
 
 •	Kaardistasime kõik oma teenused. Osad meie osakonnad osutavad teenuseid vaid KOVidele (sisend KOV-ile, et see saaks kodanikule pakkuda teenust). Siis kas Maanteeamet ei pakugi teenust? 
 Sel juhul pakub Maanteeamet teenust teisele asutusele. 
