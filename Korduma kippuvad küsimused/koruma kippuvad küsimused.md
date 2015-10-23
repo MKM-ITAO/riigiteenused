@@ -88,11 +88,9 @@ Näited MKMist (oleme näidetena teenused ka teenuste kataloogis kirjeldanud, ki
 Majandustegevuse registri kui infoteenuse teenuse [kirjeldus](https://www.mkm.ee/et/teenuste-otsing?title-search=registreering&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi "https://www.mkm.ee/et/teenuste-otsing?title-search=registreering&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi") teenuste kataloogis (teenus isikule ja ettevõtjale). 
  
   2.	Teenuste kataloog, teenus ametnikele (teenuste omanikud) ja teenuste kohta info otsijatele (kliendid):
-  	
     -	nn teenuste omanike tööriist, mille vahendusel saab kaardistada teenused veebipõhises rakenduses. Teenus on suunatud ametitele, inspektsioonidele ja ministeeriumitele.
 Teenuste [kirjeldamine](https://www.mkm.ee/et/teenuste-otsing/t?title-search=Teenuste+kirjeldamine&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi "https://www.mkm.ee/et/teenuste-otsing/t?title-search=Teenuste+kirjeldamine&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi") teenuste kataloogis (teenus ametnike)   
     -	Teenuste kataloog, teenuste [otsing](https://www.mkm.ee/et/teenuste-otsing?title-search=otsida+informatsiooni&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi  "https://www.mkm.ee/et/teenuste-otsing?title-search=otsida+informatsiooni&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi") (teenus kodanikule ja ettevõtjale) 
-    
   3.	Igasugused toetavad meetmed (sh programmid, projekt jne)  nt Läänemere Strateegia programm on suunatud  ametitele ja ettevõtetele.
 Läänemere strateegia programmi [kirjeldus](https://www.mkm.ee/et/teenuste-otsing?title-search=l%C3%A4%C3%A4nemere&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi "https://www.mkm.ee/et/teenuste-otsing?title-search=l%C3%A4%C3%A4nemere&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi") teenuste kataloogis.
  
