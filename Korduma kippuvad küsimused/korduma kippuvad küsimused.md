@@ -1,4 +1,4 @@
-##Üldised küsimused: 
+##Üldised küsimused
 
 - __Kuidas suhtuda teenustesse, kus üks asutus pakub teisele asutusele teenust?__ 
   Samasuguselt nagu teenustesse, mida osutatakse kodanikule või ettevõtjale. 
