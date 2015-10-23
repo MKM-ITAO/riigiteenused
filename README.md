@@ -8,5 +8,6 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - [Juhendid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Juhendid "https://github.com/MKM-ITAO/riigiteenused/tree/master/Juhendid")
 - [Rakenduse kood](https://github.com/MKM-ITAO/riigiteenused/tree/master/Rakenduse%20kood/Riigiteenused%20code%20documentation "https://github.com/MKM-ITAO/riigiteenused/tree/master/Rakenduse%20kood/Riigiteenused%20code%20documentation") (on veel täiendamisel)
 - [Muud materjalid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid "https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid")
+- [Korduma kippuvad küsimused](https://github.com/MKM-ITAO/riigiteenused/blob/master/Korduma%20kippuvad%20k%C3%BCsimused/korduma%20kippuvad%20k%C3%BCsimused.md "https://github.com/MKM-ITAO/riigiteenused/blob/master/Korduma%20kippuvad%20k%C3%BCsimused/korduma%20kippuvad%20k%C3%BCsimused.md")
 - [Probleemid, ettepanekud](https://github.com/MKM-ITAO/riigiteenused/issues "https://github.com/MKM-ITAO/riigiteenused/issues")
 
