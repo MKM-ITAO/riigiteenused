@@ -1,6 +1,6 @@
-# Peakoordinaatorid
+# Valitsemisalade koordinaatorid
 
-[Riigiteenuste kaardistamise ja kirjeldamise projekti](https://github.com/MKM-ITAO/riigiteenused) peakoordinaatorid.
+[Riigiteenuste kaardistamise ja kirjeldamise projekti](https://github.com/MKM-ITAO/riigiteenused) koordinaatorid.
 
 Ministeerium | Isik | Telefon
 --- | --- | ---
