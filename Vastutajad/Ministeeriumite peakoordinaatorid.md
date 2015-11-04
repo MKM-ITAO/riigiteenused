@@ -1,20 +1,20 @@
-- Haridus- ja teadusministeerium:	Mihkel Kaevats
+- __Haridus- ja teadusministeerium__:	Mihkel Kaevats
 
-- Kultuuriministeerium:	Kaitti Kattai
+- __Kultuuriministeerium__:	Kaitti Kattai
 
-- Majandus- ja Kommunikatsiooniministeerium:	Janek Rozov
+- __Majandus- ja Kommunikatsiooniministeerium__:	Janek Rozov
 
-- Maaeluministeerium:	Airi Aunbaum
+- __Maaeluministeerium__:	Airi Aunbaum
 
-- Rahandusministeerium:	Kerstin Laidmäe
+- __Rahandusministeerium__:	Kerstin Laidmäe
 
-- Justiitsministeerium:	Marit Karjus
+- __Justiitsministeerium__:	Marit Karjus
 
-- Sotsiaalministeerium:	Anne Toom
+- __Sotsiaalministeerium__:	Anne Toom
 
-- Välisministeerium:	Hille Oidema 
+- __Välisministeerium__:	Hille Oidema 
 
-- Keskkonnaministeerium:	Margo Nõukas 
+- __Keskkonnaministeerium__:	Margo Nõukas 
 
-- Siseministeerium:	Marko Seier
+- __Siseministeerium__:	Marko Seier
 
