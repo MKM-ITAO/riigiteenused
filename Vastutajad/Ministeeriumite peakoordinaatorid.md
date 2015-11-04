@@ -1,20 +1,16 @@
-- __Haridus- ja teadusministeerium__:	Mihkel Kaevats
+# Peakoordinaatorid
 
-- __Kultuuriministeerium__:	Kaitti Kattai
+[Riigiteenuste kaardistamise ja kirjeldamise projekti](https://github.com/MKM-ITAO/riigiteenused) peakoordinaatorid.
 
-- __Majandus- ja Kommunikatsiooniministeerium__:	Janek Rozov
-
-- __Maaeluministeerium__:	Airi Aunbaum
-
-- __Rahandusministeerium__:	Kerstin Laidmäe
-
-- __Justiitsministeerium__:	Marit Karjus
-
-- __Sotsiaalministeerium__:	Anne Toom
-
-- __Välisministeerium__:	Hille Oidema 
-
-- __Keskkonnaministeerium__:	Margo Nõukas 
-
-- __Siseministeerium__:	Marko Seier
-
+| Ministeerium | Isik | Telefon |
+| -- | -- | -- |
+| Haridus- ja teadusministeerium | Mihkel Kaevats |  |
+| Kultuuriministeerium | Kaitti Kattai |  |
+| Majandus- ja Kommunikatsiooniministeerium | Janek Rozov |  |
+| Maaeluministeerium |  Airi Aunbaum |  |
+| Rahandusministeerium | Kerstin Laidmäe |  |
+| Justiitsministeerium | Marit Karjus |  |
+| Sotsiaalministeerium | Anne Toom |  |
+| Välisministeerium |  Hille Oidema |  |
+| Keskkonnaministeerium | Margo Nõukas |  |
+| Siseministeerium | Marko Seier | 612 5224 |
