@@ -1,4 +1,4 @@
-# Valitsemisalade koordinaatorid
+## Valitsemisalade koordinaatorid
 
 [Riigiteenuste kaardistamise ja kirjeldamise projekti](https://github.com/MKM-ITAO/riigiteenused) koordinaatorid.
 
