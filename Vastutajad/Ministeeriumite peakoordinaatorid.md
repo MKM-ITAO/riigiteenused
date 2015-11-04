@@ -1,4 +1,4 @@
-- Teadus- ja haridusministeerium:	Mihkel Kaevats
+- Haridus- ja teadusministeerium:	Mihkel Kaevats
 
 - Kultuuriministeerium:	Kaitti Kattai
 
