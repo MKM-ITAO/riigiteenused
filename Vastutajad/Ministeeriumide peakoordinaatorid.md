@@ -2,7 +2,7 @@
 
 [Riigiteenuste kaardistamise ja kirjeldamise projekti](https://github.com/MKM-ITAO/riigiteenused) koordinaatorid.
 
-__Projektijuht__: Risto Hinno
+__Projektijuht__: [Risto Hinno](https://github.com/RRisto "https://github.com/RRisto")
 
 Ministeerium | Isik | Telefon
 --- | --- | ---
