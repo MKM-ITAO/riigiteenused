@@ -13,3 +13,4 @@ Justiitsministeerium | Marit Karjus |
 Sotsiaalministeerium | Anne Toom |  |Välisministeerium |  Hille Oidema | 
 Keskkonnaministeerium | Margo Nõukas | 
 Siseministeerium | Marko Seier | 612 5224
+Kaitseministeerium | Raul |
