@@ -2,6 +2,8 @@
 
 [Riigiteenuste kaardistamise ja kirjeldamise projekti](https://github.com/MKM-ITAO/riigiteenused) koordinaatorid.
 
+__Projektijuht__: Risto Hinno
+
 Ministeerium | Isik | Telefon
 --- | --- | ---
 Haridus- ja teadusministeerium | Mihkel Kaevats | 
