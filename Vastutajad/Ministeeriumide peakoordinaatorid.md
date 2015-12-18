@@ -12,7 +12,11 @@ Majandus- ja Kommunikatsiooniministeerium | Janek Rozov |
 Maaeluministeerium |  Airi Aunbaum | 
 Rahandusministeerium | Kerstin Laidmäe | 
 Justiitsministeerium | Marit Karjus | 
-Sotsiaalministeerium | Anne Toom |  |Välisministeerium |  Hille Oidema | 
+Sotsiaalministeerium | Anne Toom |  
+Välisministeerium |  Hille Oidema | 
 Keskkonnaministeerium | Margo Nõukas | 
 Siseministeerium | Marko Seier | 612 5224
 Kaitseministeerium | Raul |
+Riigikantselei | Ilona Kään |
+
+
