@@ -12,7 +12,7 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - [Wiki](https://github.com/MKM-ITAO/riigiteenused/wiki) olulisema info jagamiseks
 - [Probleemid, ettepanekud](https://github.com/MKM-ITAO/riigiteenused/issues "https://github.com/MKM-ITAO/riigiteenused/issues")
 - Riigiteenused.ee rakenduse [kood](https://github.com/MKM-ITAO/riigiteenused_kood)
-- Avaliku ja erasektori teenuse mõsite töörühma [materjalid](https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste "https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste")
+- Avaliku ja erasektori teenuse mõiste töörühma [materjalid](https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste "https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste")
 
 ##Tulemuste kokkuvõtted, visualiseeringud
 
