@@ -21,4 +21,4 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 
 ##Teiste riikide näited
 
-- Soome teenuste kataloogi beetaversioon on [siin](https://beta.suomi.fi/fi/ "https://beta.suomi.fi/fi/"). Nende andmemudeli ja muud materjlaid on [siin](http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/ "http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/").
+- Soome teenuste kataloogi beetaversioon on [siin](https://beta.suomi.fi/fi/ "https://beta.suomi.fi/fi/"). Nende andmemudeli ja muud materjalid on [siin](http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/ "http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/").
