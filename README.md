@@ -6,13 +6,12 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - [Valitsemisalade koordinaatorid](Vastutajad/Ministeeriumide peakoordinaatorid.md)
 - [Koosolekute slaidid ja materjalid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Koosolekute%20materjalid/ "https://github.com/MKM-ITAO/riigiteenused/tree/master/Koosolekute%20materjalid/")
 - Kaardistatud teenuseid saab näha [siin](https://www.mkm.ee/et/teenuste-otsing "https://www.mkm.ee/et/teenuste-otsing") ja JSON formaadis [siin](https://www.riigiteenused.ee/api/et/all "https://www.riigiteenused.ee/api/et/all")
-- [Juhendid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Juhendid "https://github.com/MKM-ITAO/riigiteenused/tree/master/Juhendid")
-- [Muud materjalid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid "https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid")
-- [Korduma kippuvad küsimused](https://github.com/MKM-ITAO/riigiteenused/blob/master/Korduma%20kippuvad%20k%C3%BCsimused/korduma%20kippuvad%20k%C3%BCsimused.md "https://github.com/MKM-ITAO/riigiteenused/blob/master/Korduma%20kippuvad%20k%C3%BCsimused/korduma%20kippuvad%20k%C3%BCsimused.md")
-- [Wiki](https://github.com/MKM-ITAO/riigiteenused/wiki) olulisema info jagamiseks
+- [Wiki](https://github.com/MKM-ITAO/riigiteenused/wiki) olulisema info jagamiseks ja juhendite jaoks
 - [Probleemid, ettepanekud](https://github.com/MKM-ITAO/riigiteenused/issues "https://github.com/MKM-ITAO/riigiteenused/issues")
-- Riigiteenused.ee rakenduse [kood](https://github.com/MKM-ITAO/riigiteenused_kood)
 - Avaliku ja erasektori teenuse mõiste töörühma [materjalid](https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste "https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste")
+[Muud materjalid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid "https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid")
+- [Korduma kippuvad küsimused](https://github.com/MKM-ITAO/riigiteenused/blob/master/Korduma%20kippuvad%20k%C3%BCsimused/korduma%20kippuvad%20k%C3%BCsimused.md "https://github.com/MKM-ITAO/riigiteenused/blob/master/Korduma%20kippuvad%20k%C3%BCsimused/korduma%20kippuvad%20k%C3%BCsimused.md")
+- Riigiteenused.ee rakenduse [kood](https://github.com/MKM-ITAO/riigiteenused_kood)
 
 ##Tulemuste kokkuvõtted, visualiseeringud
 
@@ -20,3 +19,6 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - Teenuste juhtimise küpsustasemete [analüüs](https://rpubs.com/RRisto/kupsus "https://rpubs.com/RRisto/kupsus")
 - R-i [pakett](https://github.com/RRisto/riigiteenused "https://github.com/RRisto/riigiteenused") riigiteenuste andmete lihtsamaks allalaadimiseks
 
+##Teiste riikide näited
+
+- Soome teenuste kataloogi beetaversioon on [siin](https://beta.suomi.fi/fi/ "https://beta.suomi.fi/fi/"). Nende andmemudeli ja muud materjlaid on [siin](http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/ "http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/").
