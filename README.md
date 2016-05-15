@@ -16,6 +16,7 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - [Korduma kippuvad küsimused](https://github.com/MKM-ITAO/riigiteenused/blob/master/Korduma%20kippuvad%20k%C3%BCsimused/korduma%20kippuvad%20k%C3%BCsimused.md "https://github.com/MKM-ITAO/riigiteenused/blob/master/Korduma%20kippuvad%20k%C3%BCsimused/korduma%20kippuvad%20k%C3%BCsimused.md")
 - Riigiteenused.ee rakenduse [kood](https://github.com/MKM-ITAO/riigiteenused_kood)
 - [Teenuste kataloogi v2.0 arenduse hange](https://riigihanked.riik.ee/register/hange/174380 "https://riigihanked.riik.ee/register/hange/174380")
+- [riigiteenuste, RIHA ja Eesti.ee arenduste koordineerimine](https://github.com/MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed "https://github.com/MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed")
 
 ##Tulemuste kokkuvõtted, visualiseeringud
 
