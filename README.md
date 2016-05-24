@@ -29,3 +29,4 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 
 - Soome teenuste kataloogi beetaversioon on [siin](https://beta.suomi.fi/fi/ "https://beta.suomi.fi/fi/"). Nende andmemudeli ja muud materjalid on [siin](http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/ "http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/").
 - Läti teenuste kataloog on [siin](https://www.latvija.lv/ "https://www.latvija.lv/").
+- Itaalia teenuste kataloogist rääkiv [esitlus](https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/files/10-Lodi_ItalianCataloguePublicService_Lodi2.pdf "https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/files/10-Lodi_ItalianCataloguePublicService_Lodi2.pdf")
