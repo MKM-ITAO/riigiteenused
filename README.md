@@ -1,4 +1,4 @@
-# Riigiteenused
+﻿# Riigiteenused
 Oled jõudnud riigiteenuste kaardistamise ja kirjeldamise projekti lehele. 01.03.2016 peab ühtsetel alustel olema kirjeldatud avalikud (e-)teenused, mida ministeeriumid ning ametid ja inspektsioonid osutavad. Kirjeldamisel lähtutakse Vabariigi Valitsuse 30.06.2015 tehtud [otsustest](https://www.mkm.ee/sites/default/files/avalike_teenuste_omanike_maaratlemise_analyys_ja_ettepanekud.pdf "https://www.mkm.ee/sites/default/files/avalike_teenuste_omanike_maaratlemise_analyys_ja_ettepanekud.pdf").
 
 Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi infoühiskonna teenuste arendamise osakond. Küsimuste korral kirjuta riigiteenused@mkm.ee.
@@ -9,7 +9,7 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - [Wiki](https://github.com/MKM-ITAO/riigiteenused/wiki) olulisema info jagamiseks ja juhendite jaoks
 - [Probleemid, ettepanekud](https://github.com/MKM-ITAO/riigiteenused/issues "https://github.com/MKM-ITAO/riigiteenused/issues")
 
-##Muud materjalid
+##Muud materjalid 
 
 - Avaliku ja erasektori teenuse mõiste töörühma [materjalid](https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste "https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste")
 - [Muud materjalid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid "https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid")
