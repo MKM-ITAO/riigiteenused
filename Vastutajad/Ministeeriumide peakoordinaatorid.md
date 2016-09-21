@@ -19,7 +19,7 @@ Kaitseministeerium	|Enely |
 Riigikantselei|	Ilona Kään |	ilona.kaan@riigikantselei.ee
 
 
-Majandus- ja Kommunikatsiooniministeeriumi haldusala
+Majandus- ja Kommunikatsiooniministeeriumi haldusala:
 
 Asutus | Isik | E-mail
 --- | --- | ---
