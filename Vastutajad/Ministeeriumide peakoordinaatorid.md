@@ -18,7 +18,9 @@ Siseministeerium|	Marko Seier|	marko.seier@siseministeerium.ee
 Kaitseministeerium	|Enely |	
 Riigikantselei|	Ilona Kään |	ilona.kaan@riigikantselei.ee
 
+
 Majandus- ja Kommunikatsiooniministeeriumi haldusala
+
 Asutus | Isik | E-mail
 --- | --- | ---
 Lennuamet|	Tiina Ester|	Tiina.Ester@ecaa.ee
