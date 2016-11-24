@@ -27,6 +27,7 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 
 ##Teiste riikide näited
 
+- Eesti-Soome ühise kataloogi ühisversiooni piloot on [siin](http://cpsv-ap.semic.eu/cpsv-ap_harvester_xBorder_pilot/business.html  "http://cpsv-ap.semic.eu/cpsv-ap_harvester_xBorder_pilot/business.html")
 - Soome teenuste kataloogi beetaversioon on [siin](https://beta.suomi.fi/fi/ "https://beta.suomi.fi/fi/"). Nende andmemudeli ja muud materjalid on [siin](http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/ "http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/").
 - Läti teenuste kataloog on [siin](https://www.latvija.lv/ "https://www.latvija.lv/").
 - Itaalia teenuste kataloogist rääkiv [esitlus](https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/files/10-Lodi_ItalianCataloguePublicService_Lodi2.pdf "https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/files/10-Lodi_ItalianCataloguePublicService_Lodi2.pdf")
