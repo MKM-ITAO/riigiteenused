@@ -1,4 +1,5 @@
-﻿# Riigiteenused
+# Riigiteenused
+
 Oled jõudnud riigiteenuste kaardistamise ja kirjeldamise projekti lehele. 01.03.2016 peab ühtsetel alustel olema kirjeldatud avalikud (e-)teenused, mida ministeeriumid ning ametid ja inspektsioonid osutavad. Kirjeldamisel lähtutakse Vabariigi Valitsuse 30.06.2015 tehtud [otsustest](https://www.mkm.ee/sites/default/files/avalike_teenuste_omanike_maaratlemise_analyys_ja_ettepanekud.pdf "https://www.mkm.ee/sites/default/files/avalike_teenuste_omanike_maaratlemise_analyys_ja_ettepanekud.pdf").
 
 Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi infoühiskonna teenuste arendamise osakond. Küsimuste korral kirjuta riigiteenused@mkm.ee.
@@ -9,7 +10,7 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - [Wiki](https://github.com/MKM-ITAO/riigiteenused/wiki) olulisema info jagamiseks ja juhendite jaoks
 - [Probleemid, ettepanekud](https://github.com/MKM-ITAO/riigiteenused/issues "https://github.com/MKM-ITAO/riigiteenused/issues")
 
-##Muud materjalid 
+## Muud materjalid 
 
 - Avaliku ja erasektori teenuse mõiste töörühma [materjalid](https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste "https://itpraktikud.eesti.ee/dokuwiki/doku.php?id=itari:toogrupid:erasektor:teenusemoiste")
 - [Muud materjalid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid "https://github.com/MKM-ITAO/riigiteenused/tree/master/Muud%20materjalid")
@@ -19,13 +20,13 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 - [riigiteenuste, RIHA ja Eesti.ee arenduste koordineerimine](https://github.com/MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed "https://github.com/MKM-ITAO/Teenuste-kataloogi-RIHA-ja-Eesti.ee-seosed")
 - [ISA programm](https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/files/18B_%20ALVAREZ.pdf "https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/files/18B_%20ALVAREZ.pdf")
 
-##Tulemuste kokkuvõtted, visualiseeringud
+## Tulemuste kokkuvõtted, visualiseeringud
 
 - Rakendus kaardistamise tulemuste kokkvõtmiseks on [siin](https://ristohinno.shinyapps.io/Riigiteenused_dashboard "https://ristohinno.shinyapps.io/Riigiteenused_dashboard")
 - Teenuste juhtimise küpsustasemete [analüüs](https://rpubs.com/RRisto/kupsus "https://rpubs.com/RRisto/kupsus")
 - R-i [pakett](https://github.com/RRisto/riigiteenused "https://github.com/RRisto/riigiteenused") riigiteenuste andmete lihtsamaks allalaadimiseks
 
-##Teiste riikide näited
+## Teiste riikide näited
 
 - Eesti-Soome ühise kataloogi ühisversiooni piloot on [siin](http://cpsv-ap.semic.eu/cpsv-ap_harvester_xBorder_pilot/business.html  "http://cpsv-ap.semic.eu/cpsv-ap_harvester_xBorder_pilot/business.html")
 - Soome teenuste kataloogi beetaversioon on [siin](https://beta.suomi.fi/fi/ "https://beta.suomi.fi/fi/"). Nende andmemudeli ja muud materjalid on [siin](http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/ "http://esuomi.fi/palveluntarjoajille/palvelutietovaranto/").
