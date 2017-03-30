@@ -6,7 +6,7 @@ __Projektijuht:__ [Risto Hinno](https://github.com/RRisto "https://github.com/RR
 
 Ministeerium | Isik | E-mail
 --- | --- | ---
-Teadus- ja haridusministeerium	|Mihkel Kaevats|	mihkel.kaevats@hm.ee
+Haridus- ja Teadusministeerium	|Mihkel Kaevats|	mihkel.kaevats@hm.ee
 Kultuuriministeerium|	Merle Männik	| merle.mannik@kul.ee
 Maaeluministeerium|	Sirli Kalbus|	sirli.kalbus@agri.ee
 Rahandusministeerium	|Kerstin Laidmäe|	kerstin.laidmae@fin.ee
