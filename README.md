@@ -4,7 +4,7 @@ Oled jõudnud riigiteenuste kaardistamise ja kirjeldamise projekti lehele. 01.03
 
 Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi infoühiskonna teenuste arendamise osakond. Küsimuste korral kirjuta riigiteenused@mkm.ee.
 
-- [Valitsemisalade koordinaatorid](Vastutajad/Ministeeriumide peakoordinaatorid.md)
+- [Valitsemisalade koordinaatorid](https://github.com/MKM-ITAO/riigiteenused/blob/master/Vastutajad/Ministeeriumide%20peakoordinaatorid.md)
 - [Koosolekute slaidid ja materjalid](https://github.com/MKM-ITAO/riigiteenused/tree/master/Koosolekute%20materjalid/ "https://github.com/MKM-ITAO/riigiteenused/tree/master/Koosolekute%20materjalid/")
 - Kaardistatud teenuseid saab näha [siin](https://www.mkm.ee/et/teenuste-otsing "https://www.mkm.ee/et/teenuste-otsing") ja JSON formaadis [siin](https://www.riigiteenused.ee/api/et/all "https://www.riigiteenused.ee/api/et/all")
 - [Wiki](https://github.com/MKM-ITAO/riigiteenused/wiki) olulisema info jagamiseks ja juhendite jaoks
