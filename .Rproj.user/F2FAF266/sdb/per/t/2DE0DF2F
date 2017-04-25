@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\n\nNULL\n",
+    "created" : 1483687346076.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1175332701",
+    "id" : "2DE0DF2F",
+    "lastKnownWriteTime" : 1470554943,
+    "last_content_update" : 1470554943,
+    "path" : "~/GitHub/Riigiteenused-dev/R/import_packages.R",
+    "project_path" : "R/import_packages.R",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

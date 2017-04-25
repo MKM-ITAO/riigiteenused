@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#' andmete downloadi abifunktsioon\n#' @export\nandmedSisse=function(url=\"https://www.riigiteenused.ee/api/et/all\") {\n  #library(rjson)\n  library(jsonlite)\n  #loeme andmed sisse\n  lai=fromJSON(url)\n  flatten(lai[[2]])\n}\n\n\n",
+    "created" : 1483686935879.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2736710095",
+    "id" : "8E1A3CA0",
+    "lastKnownWriteTime" : 1483686873,
+    "last_content_update" : 1483686873,
+    "path" : "~/GitHub/Riigiteenused-dev/R/andmedSisse.R",
+    "project_path" : "R/andmedSisse.R",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

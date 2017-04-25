@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#andmed pikaks, võtab eelnevad funktsioonid kokku, iga\n#aasta andmed teeb pikaks\n#' @export\nandmedPikaks=function(andmedLai) {\n  tulem=data.frame(NULL)\n  for (i in 1:nrow(andmedLai)) {\n    sub=andmedLai$serviceStatistics[i]\n    aastad=sub[[1]][2]\n    teenustulem=data.frame(NULL)\n    for (j in 1:nrow(aastad)) {\n      abikas=sub[[1]][3]$availableChannel[[j]]\n      moodikud=abikas$channelStatistics\n      taisrida=cbind(moodikud, abikas[, c(\"url\", \"additionalType\", \"payment\")])\n      taisrida=cbind(taisrida, andmedLai[i, c(\"domain\", \"subdomain\", \"serviceType\",\n                                              \"provider.name\", \"provider.memberOf.name\")])\n      taisrida$aasta=aastad$value[j]\n      teenustulem=rbind(teenustulem, taisrida)\n    }\n    teenustulem$id=andmedLai$identifier[i]\n    tulem=rbind(tulem, teenustulem)\n  }\n\n  library(reshape2)\n  tulem$'@type'=NULL\n  #nimetame veerud ümber\n  names(tulem)[names(tulem)==\"aasta\"] <- \"MootmiseAasta\"\n  names(tulem)[names(tulem)==\"payment\"] <- \"makse\"\n  names(tulem)[names(tulem)==\"id\"] <- \"identifikaator\"\n  names(tulem)[names(tulem)==\"domain\"] <- \"valdkond\"\n  names(tulem)[names(tulem)==\"subdomain\"] <- \"alamvaldkond\"\n  names(tulem)[names(tulem)==\"serviceType\"] <- \"teenusetyyp\"\n  names(tulem)[names(tulem)==\"provider.memberOf.name\"] <- \"ministeerium\"\n  names(tulem)[names(tulem)==\"provider.name\"] <- \"allasutus\"\n  names(tulem)[names(tulem)==\"additionalType\"] <- \"kanal\"\n  names(tulem)[names(tulem)==\"transaction\"] <- \"osutamistearv\"\n  names(tulem)[names(tulem)==\"satisfaction\"] <- \"rahulolu\"\n  names(tulem)[names(tulem)==\"cost\"] <- \"halduskulu\"\n  names(tulem)[names(tulem)==\"activeTimeSpent\"] <- \"ajakulu\"\n  names(tulem)[names(tulem)==\"totalTimeSpent\"] <- \"ajakuluBruto\"\n\n  pikk=melt(tulem, measure.vars=c(\"osutamistearv\", \"rahulolu\", \"halduskulu\",\n                                  \"ajakulu\", \"ajakuluBruto\"))\n  names(pikk)[names(pikk)==\"variable\"] <- \"naitaja\"\n  #kus on müüdik puudu paneme NA\n  pikk$value=ifelse(pikk$value==\"\", NA, pikk$value)\n  pikk\n}\n",
+    "created" : 1483686937377.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "332800307",
+    "id" : "EF337321",
+    "lastKnownWriteTime" : 1483687840,
+    "last_content_update" : 1483687840550,
+    "path" : "~/GitHub/Riigiteenused-dev/R/andmedPikaks.R",
+    "project_path" : "R/andmedPikaks.R",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

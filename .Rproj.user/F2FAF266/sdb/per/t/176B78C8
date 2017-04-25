@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: riigiteenused\nType: Package\nTitle: Riigiteenuste andmete sisselugemine\nVersion: 1.1\nDate: 2016-01-26\nAuthor: Risto Hinno\nMaintainer: <ristohinno@gmail.com>\nDescription: Laeb riigiteenuste andmed (https://www.riigiteenused.ee/api/et/all) andmed alla ning viib laiast formaadist pikka formaati\nLicense: Creative Commons License\nImports: jsonlite,\n         reshape2\nLazyData: TRUE\nRoxygenNote: 5.0.1\n\n\n",
+    "created" : 1470555234412.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2077009523",
+    "id" : "176B78C8",
+    "lastKnownWriteTime" : 1483687294,
+    "last_content_update" : 1483687294129,
+    "path" : "~/GitHub/Riigiteenused-dev/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+        "chunk_rendered_width" : "650"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
