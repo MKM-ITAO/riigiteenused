@@ -13,7 +13,7 @@ Rahandusministeerium	|Kerstin Laidmäe|	kerstin.laidmae@fin.ee
 Justiitsministeerium|	Marit Karjus	|marit.karjus@just.ee
 Sotsiaalministeerium|	Anne Toom|	anne.toom@sm.ee 
 Välisministeerium|	Hille Oidema |	hille.oidema@mfa.ee 
-Keskkonnaministeerium	|Margo Nõukas |	Margo.Noukas@envir.ee
+Keskkonnaministeerium	|Kätlin Mandel |	katlin.mandel@envir.ee
 Siseministeerium|	Ülle Johanson|	ylle.johanson@siseministeerium.ee
 Kaitseministeerium	|Enely |	
 Riigikantselei|	Ilona Kään |	ilona.kaan@riigikantselei.ee
