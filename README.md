@@ -23,6 +23,7 @@ Kaardistamist veab ja koordineerib Majandus- ja Kommunikatsiooniministeeriumi in
 ## Tulemuste kokkuvõtted, visualiseeringud
 
 - Rakendus kaardistamise tulemuste kokkvõtmiseks on [siin](https://ristohinno.shinyapps.io/Riigiteenused_dashboard "https://ristohinno.shinyapps.io/Riigiteenused_dashboard")
+- Inglisekeelne [leht](http://mkm-itao.github.io/catalogue/ "http://mkm-itao.github.io/catalogue/") kataloogi tutvustamiseks
 - Teenuste juhtimise küpsustasemete [analüüs](https://rpubs.com/RRisto/kupsus "https://rpubs.com/RRisto/kupsus")
 - R-i [pakett](https://github.com/RRisto/riigiteenused "https://github.com/RRisto/riigiteenused") riigiteenuste andmete lihtsamaks allalaadimiseks
 
