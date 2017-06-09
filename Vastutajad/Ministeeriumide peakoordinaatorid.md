@@ -26,7 +26,7 @@ Asutus | Isik | E-mail
 Lennuamet|	Tiina Ester|	Tiina.Ester@ecaa.ee
 Riigi Infosüsteemi Amet	|Janne Tomberg	|janne.tomberg@ria.ee
 Tehnilise Järelevalve Amet	|Arvo Rammus|	arvo.rammus@tja.ee
-Tarbijakaitseamet|	Aime Linke|	aime.linke@tarbijakaitseamet.ee
+Tarbijakaitseamet|	Hanna Turetski|	hanna.turetski@tarbijakaitseamet.ee
 Maanteeamet|	Anne Nurmik|	anne.nurmik@mnt.ee
 Veeteede Amet|	Katriin Pellä|	katriin.pella@vta.ee
 
