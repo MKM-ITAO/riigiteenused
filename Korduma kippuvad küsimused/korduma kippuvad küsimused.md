@@ -1,100 +1,149 @@
 ## Korduma kippuvad küsimused
-### Palun täpsustada avaliku teenuse definitsiooni
-MKMis lähtume avalike teenuste korraldamise rohelises raamatus toodud definitsioonist, oleme seda ka natukene täpsustanud „Asjaajamise ühtsete aluste“ määruse muudatuste valguses (tähtaeg november). Nimelt, „avalik teenus on teenus, mida asutus osutab sobiva suhtluskanali kaudu, et võimaldada isikule tema tahtel, sealhulgas eeldataval tahtel, tema seadusest tulenevate kohustuste täitmine või õiguste kasutamine“. Hetkel on teenuste omanike määratlemise analüüsist ja ettepanekutest väljas nn asutuse sise- või tugiteenused (IT, asjaajamine, õigustugi jne) ja ministeeriumite tasandil poliitika kujundamise teenus. Vaatamata sellele, et poliitika kujundamine ise teenusena ei kvalifitseeru, teenuseks võivad olla poliitika elluviimise instrumendid (nt erinevad meetmed, programmid, projektid). Keskendume teenustele, mis on suunatud väljapoole asutust ehk tegevustele mida on võimalik teostada erinevate kanalite vahendusel (büroo, telefon, e-keskkond) erinevate sihtrühmade poolt (kodanik, ettevõtja, teine amet/asutus/inspektsioon).
 
-### Millised on tüüpilised ministeeriumide avalikud teenused?
-Näited MKMist (oleme näidetena teenused ka teenuste kataloogis kirjeldanud, kirjeldused on esialgsed ning võivad muutuda): 
-  1.	Majandustegevuse registri ja Ehitisregistri toetusel/vahendusel osutatavad teenused, teenused on suunatud ettevõtjatele ja kodanikele. Majandustegevuse registri kui infoteenuse teenuse [kirjeldus](https://www.mkm.ee/et/teenuste-otsing?title-search=registreering&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi "https://www.mkm.ee/et/teenuste-otsing?title-search=registreering&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi") teenuste kataloogis (teenus isikule ja ettevõtjale).
-  2.	Teenuste kataloog, teenus ametnikele (teenuste omanikud) ja teenuste kohta info otsijatele (kliendid):
-      -	nn teenuste omanike tööriist, mille vahendusel saab kaardistada teenused veebipõhises rakenduses. Teenus on suunatud ametitele, inspektsioonidele ja ministeeriumitele. Teenuste [kirjeldamine](https://www.mkm.ee/et/teenuste-otsing/t?title-search=Teenuste+kirjeldamine&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi "https://www.mkm.ee/et/teenuste-otsing/t?title-search=Teenuste+kirjeldamine&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi") teenuste kataloogis (teenus ametnike).
-      - Teenuste kataloog, teenuste [otsing](https://www.mkm.ee/et/teenuste-otsing?title-search=otsida+informatsiooni&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi "https://www.mkm.ee/et/teenuste-otsing?title-search=otsida+informatsiooni&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi") (teenus kodanikule ja ettevõtjale).  
-  3.	Igasugused toetavad meetmed (sh programmid, projekt jne)  nt Läänemere Strateegia programm on suunatud  ametitele ja ettevõtetele.
-Läänemere strateegia programmi [kirjeldus](https://www.mkm.ee/et/teenuste-otsing?title-search=l%C3%A4%C3%A4nemere&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi) teenuste kataloogis:
+### 1.	Palun täpsustada avaliku teenuse definitsiooni.
 
-### Avalike teenuste omanike määramise analüüsis ja kaaskirjas räägitakse vaheldumisi teenustest ja e-teenustest. Kas keskenduma ei peaks mitte ainult e-teenustele, vaid võrdselt mõlemale?
-Keskenduda tuleks eeskätt teenusele endale ning seejärel kanalitele, mille vahendusel teenust osutatakse. Vabariigi Valitsuse otsusega on seatud eesmärgiks 01.03.2015 vähemalt e-teenuste kohta käiva info kanda teenuste kataloogi. Samas meil oleks ainult hea meel kui saaks ka muude kanalite vahendusel osutatavad teenused pildile saada. E-teenuste all peame silmas neid teenuseid, kus suhtlus/interaktsioon asutuse ja kliendi vahel (kas kliendi enda või siis asutuse initsiatiivil) toimub läbi e-kanali. 
+Vastavalt Teenuste korraldamise ja teabehalduse aluste §2 (2) on „Otsene avalik teenus on teenus, mida asutus osutab füüsilisele või eraõiguslikule juriidilisele isikule (edaspidi isik) tema tahtel, sealhulgas eeldataval tahtel, teeninduskontakti kaudu mis tahes suhtluskanalis (edaspidi kanal) ja mis võimaldab isikul täita seadusest tuleneva kohustuse või kasutada seadusest tulenevat õigust.“ https://www.riigiteataja.ee/akt/131052017007 
 
-### Kas 1. märtsiks tuleb kirjeldada kõik teenused, mida riik osutab või ainult e-teenused?  Ringi liikuvatest manustest ei saa üheselt aru, kord käsitletakse teemat laiemalt ja siis  räägitakse ainult e-teenustest.
-Meie soovime, et kataloogis oleks kirjeldatud 1. märtsiks kõik need teenused, millel on vähemalt üks e-kanal (e-kanali all peame silmas E-iseteenindus,Eesti.ee,Veebileht,Nutirakendus,Digitelevisioon,E-post). Esialgsest skoobist jäävad välja kõik need teenused, millel e-kanal puudub. MKM-is oleme kataloogi kirjeldanud kõik teenused, mida MKM osutab. Kuna aga kirjeldamine on mahukas, siis oleme selle teiste asutuste jaoks jaganud etappideks. Kui on soov enne 1.märtsi kirjeldada ka neid teenuseid, mida ei pakuta läbi e-kanalite, siis on see meie seisukohalt väga oodatud. 
+Definitsioonis toodud õigused ja kohustused puudutavad neid teenuseid, mille eest on asutus on vastutav vastavalt oma põhimäärusele või seadusele (avalik õiguslike asutuste puhul). Lisaks sellele puudutvad õigused ja kohustused neid seadusi, mille täideviimise kohustus on pandud kindlale asutusele mõne teise õigusaktiga (näiteks tulumaksu tasumine ja tagastamine on Maksu- ja Tolliametile pandud ülesanne millise seadusega?).
 
-### Kuidas suhtuda teenustesse, kus üks asutus pakub teisele asutusele teenust?
-Sellistesse teenustesse tuleks suhtuda samasuguselt nagu teenustesse, mida osutatakse kas kodanikule või ettevõtjale. 
+Avalik teenus on teenus, mida riigi-, kohaliku omavalitsuse asutus või avalikku ülesannet täitev eraõiguslik juriidiline isik pakub kas füüsilisele või juriidilisele eraõiguslikule isikule. Otsene avalik teenus tähendab, et teenust pakutakse alati konkreetsele identifitseeritud isikule.
 
-### Kuidas suhtuda kahe infosüsteemi vaheliste andmete vahetamisega? Kas see on teenus?
-Meie jaoks on teenus siis, kui mina kliendina saan seda teenust minna taotlema. Toimub suhtus/interaktsioon asutuse ja kliendi vahel. Seega andmevahetus kahe infosüsteemi vahel teenusena kirja ei lähe.
+Avalikud teenused, mida osutatakse kõigile ja mille puhul isikut ei identifitseerita (näiteks muuseumi külastamine, pileti ostmine, asjade ostmine) või mille puhul toimub isiku andmete töötlemine mõnel juhul kõrvaltoiminguna (näiteks broneerimis- või piletiostu süsteemi sisse logides või krediitkaardi kasutamisel) ei kanta kataloogi, kuna sellisel juhul ei ole tegemist otsese teenusega. 
 
-### Hästi palju on sellist teenust nagu kooskõlastus. Kuidas seda kaardistada/kirjeldada?
-Juhul, kui tegemist on asutusesisese kooskõlastusega, siis meie seda teenuseks ei loe. Kui tegemist on kooskõlastusega, mis on suunatud väljapoole mõnele teisele asutusele, ettevõtjale või kodanikule, siis loeme seda teenuseks. 
+Teenust pakutakse alati läbi teenuse kanali, sellepärast on teenuste kataloogis alati välja toodud ka kõik kanalid mille kaudu antud teenust pakutakse (näiteks teenindusbüroo, veebileht vm).
+
+Teenuste kataloogi kantakse eeskätt teenused, mis on suunatud füüsiliste ja eraõiguslike juriidiliste isikutele. Tugiteenuseid, mis on suunatud ametiasutuste omavahelisele koostööle, ei kanta teenuste kataloogi.
+
+Teenuste kataloogi ei kanta samuti tegevusi, mis võivad olla ametiasutuse põhitegevus (näiteks registri pidamine) aga ei ole isikule suunatud teenus. Näiteks „Rahvastikuregistri pidamine“ ise ei ole teenus, mis kantakse kataloogi, samas tuleb kataloogi kanda teenus „Elukoha teate esitamine kohaliku omavalitsuse üksusele“ (Rahvastikuregistri seadus § 74), mis kantakse seejärel rahvastikuregistrisse.
+
+Kui otsese avaliku teenuse eest makstakse teenustasu või riigilõivu, siis maksmise toiming ei ole eraldi teenus.
+
+Teenuste kataloogi ei kanta kaudseid teenuseid, nagu näiteks teabe jagamist avalikul veebilehel (näiteks lahtiolekuaegu, avaandmeid jms), avalike hüvede pakkumist (näiteks korra tagamist või hariduse pakkumist). 
+
+Teabenõudeid ei kanta teenuste kataloogi.
+
+Märgukirja ja Selgitustaotluse esitamist asutusele ei kanta teenuste kataloogi.
+
+
+### 2. Millised on tüüpilised ministeeriumide avalikud teenused?
+
+Otsene avalik teenus on näiteks:
+
+Sõiduki registreerimine liiklusregistris – Liiklusregistrisse andmeesitamise kohustus on ära toodud Liiklusseaduses § 175 (1). Sõiduki registreerimise käigus sõidukite andmebaasi kantavad andmed on ära toodud Liiklusregistri pidamise põhimääruses § 3. Tegemist on otsese avaliku teenusega sellepärast, et isikul on kohustus oma sõiduk registreerida ja registripidajal on kohustus registreerimise käigus sõiduki omanik identifitseerida ja tema sõiduki andmed kanda liiklusregistrisse.
+
+Ehitusloa taotlemine – Ehitusloa taotlemise kohustus on ära toodud Ehitusseaduses § 23 (2). Ehitusloa taotlemiseks vajalikud andmed on ära toodud Ehitusseaduses § 26. Ehitusloa isikut identifitseerivad andmed on ära toodud Ehitisregistri põhimääruses § 10. Tegemist on otsese avaliku teenusega sellepärast, et ehitamiseks on vajalik kohaliku omavalitsuse või riigi nõusolek. Selle saamiseks peab isik esitama taotluse ehitusregistrile. Ehitusregister peab koos muude vajalike andmetega identifitseerima ja registrisse kandma ka taotleja andmed.
+
+Rahvusraamatukogu teavikute laenutamine – Teavikute laenutamine on toodud ära Rahvusraamatukogu seaduses § 12. Rahvusraamatukogu teenuseid võivad kasutada kõik juriidilised ja füüsilised isikud. Teavikute laenutuseks peab isik registreeruma raamatukogu kasutajaks, mis  tähendab tema identifitseerimist. Teenuste kataloogi kantakse teavikute laenutamine kui otsene avalik teenus, mis on ära toodud Rahvusraamatukogu seaduses.
+
+
+### 3. Avalike teenuste omanike määramise analüüsis ja kaaskirjas räägitakse vaheldumisi teenustest ja e-teenustest. Kas keskenduma ei peaks mitte ainult e-teenustele, vaid võrdselt mõlemale?
+
+Keskenduda tuleks eeskätt teenusele endale ning seejärel kanalitele, mille vahendusel teenust osutatakse. 
+
+E-teenuste all peetakse silmas neid teenuseid, kus suhtlus/interaktsioon asutuse ja kliendi vahel (kas kliendi enda või siis asutuse initsiatiivil) toimub läbi elektroonilise kanali, milleks võib olla näiteks e-iseteenindus, sotsiaalmeedia, eesti.ee, chat/chat bot, kõnerobot, nutirakendus, veebileht/portaal.
+
+
+### 4. Kuidas suhtuda teenustesse, kus üks asutus pakub teisele asutusele teenust?
+
+Teenuseid, mida üks asutus pakub teisele asutusee, kutsutakse väliseks tugiteenuseks. 
+TKTA § 2 lõige 5 kohaselt osutab tugiteenust asutus enda (sisemine tugiteenus) või teise asutuse ametnikele või töötajatele (väline tugiteenus). Tugiteenus toetab asutuse ülesannete täitmist. Tugiteenuseid ei kanta kataloogi. 
+
+### 5. Kas kahe asutuse vaheline andmevahetus on otsene avalik teenus ?
+
+Otsene avalik teenus on suhtus/interaktsioon asutuse ja füüsilise või erasektori juriidilise isiku vahel, kellele teenust pakutakse. Seega andmevahetus kahe infosüsteemi vahel ei ole otsene avalik teenus. Andmevahetus kahe infosüsteemi vahel võib olla osa mõne konkreetse otsese teenuse menetlusprotsessist, kuid ei ole eraldiseisev otsene avalik teenus. 
+
+### 6. Hästi palju on sellist teenust nagu kooskõlastus. Kuidas seda kaardistada/kirjeldada?  
  
-### Osa liiki teenused on infoteenused, mida teha nendega?
-Kui teenuse sisu on spetsiifilise informatsiooni pakkumine, näiteks Statistikaametilt informatsiooni küsimine, siis sel juhul on tegemist eraldiseisva avaliku teenusega. Infoteenust teenusena kataloogis ei kirjelda, kui infoteenuse sisu on  näiteks büroode lahtiolekuajad.  
+Juhul, kui tegemist on asutusesisese või kahe asutuse omavahelise kooskõlastusega, siis seda otseseks avalikuks teenuseks ei loeta. Kui füüsilise või erasektori juriidilise isiku kooskõlastamise vajadus mõne ametiasutusega on ära toodud mõnes õigusaktis, siis peab selle teenuse koos kooskõlastamise kanalitega kandma kataloogi. 
 
-### Kas järelevalvelisi protsesse saab kajastada kui avalikku teenust?
-Järelevalvelisi tegevusi saab avaliku teenusena kirjeldada ja seda on ka tehtud juba. Näit TJA [raudtee järelevalve](https://www.mkm.ee/et/teenuste-otsing?title-search=raudtee+j%C3%A4relevalve&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi "https://www.mkm.ee/et/teenuste-otsing?title-search=raudtee+j%C3%A4relevalve&field_t_kirjeldus_value=&sort_by=field_t_osutatud_teenuste_arv_value&=Otsi"). Avalike teenuste korraldamise rohelises raamatus on välja toodud, et avalik teenus võib olla nii maksude kogumine, mõni järelevalvetoiming kui ka personaalne isikuteenus, nagu sotsiaalnõustamine või lapsehoid. Avalik teenus võib olla nii otsene kui ka kaudne teenus, mida asutus või tema volitatud isik osutab teenuse kasutajale õigusaktides ettenähtud viisil tasuta või tasu eest. Seega ka järelevalvelisi tegevusi, mille eest peab klient tasuma, võib määratleda avalike teenustena. 
+### 7. Osa liiki teenused on infoteenused, mida teha nendega?
 
-### Kuidas käsitleda teenuste defineerimisel registrit, mille teabele on juurdepääsupiirang?
-Register ise ei ole avalik teenus. Samas registris olevate andmete põhjal osutatakse teenuseid (nt registrist andmete otsing, päring). 
-Osa avalikke teenuseid on suunatud vaid teatud sihtrühmadele. Vastavalt sellele, mis sihtrühma klient kuulub, on piiratud juurdepääs ning informatsioon, mida kuvatakse.  
-Näitena võib tuua rahvastikuregistri. Igal inimesel on juurdepääs oma andmetele rahvastikuregistris via eesti.ee. Samas puudub juurdepääs teiste inimeste isikuandmetele.  Näha saab vaid üldisi  statistilisi andmeid. 
-Registrit, kus juurdepääs on piiratud kõigile, tegelikkuses olemas ei ole.
+Kui teenuse sisu on spetsiifilise informatsiooni pakkumine, näiteks Statistikaameti statistiliste näitajate avaldamine, siis sel juhul on tegemist  kaudseavaliku teenusega, mis ei ole isikustatud ja seega ei ole otsene avalik teenus. Infoteenust teenusena kataloogis ei kirjelda, kui infoteenuse sisu on näiteks büroode lahtiolekuajad või info avaldamine mõne teenuse kohta asutuse kodulehel. 
 
-### Kuidas suhtuda teenustesse, kus riik on delegeerinud teenuse/teenuste osutamise riiklikule aktsiaseltsile volituse alusel?
-Teenuseid, mille osutamise on riik delegeerinud riiklikule aktsiaseltsile volituse alusel, saab samuti määratleda avalike teenustena. Need on riigi poolt osutatavad teenused, mille osutamise on riik ühel või teisel põhjusel delegeerinud riiklikule aktsiaseltsile. Selliste teenuste puhul täidab riiklik aktsiaselts avalikku ülesannet riigi volitusel.
+### 8. Kas järelevalvelisi protsesse saab kajastada kui avalikku teenust?
 
-### Kas riigilõive maksmine eraldi ei ole teenus?
-Üldjuhul ei ole eraldi teenus, kuna riigilõivu maksmine on osa teenusest. Juhul kui riigilõivu maksmiseks peab klient minema eraldi rakendusse, maksmine ei ole orgaaniliselt teenuse osa, võib seda käsitleda eraldi teenusena.
+Järelevalve toiminguid nagu ettekirjutuse, korralekutsumise, karistuse vms määramisi ei kanta teenuste kataloogi. Järelevalve teostamine on suunatud üldsuse heaolu ja turvalisuse tagamisele mitte nende isikute teenindamisele kelle suhtes järelvalvetoiminguid teostatakse.
 
-### Kas on plaanis teha erisustega asutustele erisusega lähenemine (teadusega seotud teenused nt laboriteenused või nt muuseumid)?
-Hetkel plaanis ei ole. Hiljem, kui tekib ülevaade erisustest võib seda kaaluda. Muuseumite ja laborite pakutavad teenused on teenused, mis tuleks kirjeldada kataloogi. Kui on erisusi, tuleks neist teada anda ja põhjendada, milles erisus seisneb.
+Tegevusloa taotlemisega seotud teeninduskeskkonnad tuleb lugeda otsesteks avalikeks teenusteks ja need tuleb kanda teenuste kataloogi.
 
-### Kui ma praegu kirjeldan teenused ära, kas siis ma pean enne 1.märtsi neid aja- ja asjakohastama?
-Soov on, et 1. märtsi seisuga on kõik teenused aja- ja asjakohased. Oluline on, et info, mis kataloogis kuvatakse oleks kliendile ajakohane. Seega pole tähtis, et teenused oleks 1. märtsil ajakohased, vaid ajakohasus tuleks tagada jooksvalt (kataloogis olev info ei tohiks klienti eksitada). Juhul, kui teenuse kirjelduses olulisi muudatusi ei toimu (nt nimi ja kirjeldus jääb samaks), pole vaja teenust kataloogis uuendada. Kuna kataloog viitab kodulehele/keskkonnale, kus teenust tarbida saab, tuleks info seal kaasajastatuna hoida.
+### 9. Kuidas käsitleda teenuste defineerimisel registrit, mille teabele on juurdepääsupiirang?
 
-### Avalike teenuste omanike määratlemise analüüsi ja ettepanekute dokumendis nimetatakse teenuste eest üldvastutajat/ üldkoordinaatorit juhtkonna taseme esindajaks (lk 6).Millisel juhtimistasandil soovite näha üldkoordinaatorit?
-Üldkoordinaator peaks omama ülevaadet kõikide ministeeriumi, ministeeriumi haldusala ametite/inspektsioonide poolt osutatavate teenuste osas. Oluline on see, et  üldkoordinaatoril oleks juhtkonna tasandil nii sõna kui ka otsustusõigus küsimustes, mis puudutavad lõpptarbijatele (kodanik, ettevõtja, teine amet/asutus) suunatud teenuste ja teenuste kanalite kvaliteeti (maksumus, ajakulu, rahulolu). Üldkoordinaatori rolli peaks täitma vastavalt kas (ase)kantslerite, (ase)direktorite tasand, või osakonnajuhatajate tasand tingimusel, et osakonna juhatajal hakkab olema õigus osutatavate teenuste kvaliteedi osas juhtkonna tasandil ettepanekuid tegema ning otsuseid vastu võtma.
+Register ega registri pidamine ise ei ole otsene avalik teenus. Teenus on näiteks elukoha andmete kandmine registrisse, või registrist päringu tegemine.
 
-### Majandus- ja Kommunikatsiooniministeerium palub nimetada kogu valitsemisala üldvastutaja/peakoordinaator. Kuidas võiks olla korraldatud avalike teenuste omanike määramise protsess ja info juhtimine (määramise ajal ning ka edaspidi) haldusala asutustega?
-Ideaalis võiks nn teenuste üldvastutajate hierarhia välja näha nii, et ministeeriumi tasandil üldvastutaja koordineerib ministeeriumi haldusala ametite ja inspektsioonide üldvastutajaid. Infoühiskonna teenuste arendamise osakond (ITAO) omakorda koordineerib ministeeriumide üldvastutajaid. Esimeses etapis ootame tagasisidet ministeeriumi tasandil määratud vastutaja osas, mis eeldab seda, et ka ministeeriumi haldusalas endas tekib üldvastutajate grupp ametite ja inspektsioonide osas.  Kui töökäigus selgub, et selline koordineerimise mudel ei tööta, saame koostöös koordineerimisvormi täpsustada. 
+Juurdepääsupiirang puudutab andmeid või teavet millele ligipääs on piiratud osadele füüsilistele või juriidiliste eraõiguslike isikutele. Otsene avalik teenus ei eelda kõikide võimalike andmete kättesaadavaks tegemist.
 
-### Palun kommenteerige MKM-i plaani seoses loodava koostöövõrgustikuga. Täpsemalt, kuidas peaks käsitlema selle raames ministeeriumi valitsemisala allasutuste avalike teenuste koordinaatoreid juhul, kui on otsustatud ka allasutustes omad koordinaatorid määrata? Teisisõnu kas koostöövõrgustikus saab osalema üksnes ministeeriumi tasandi peakoordinaator või ka allasutuste koordinaatorid juhul, kui nad on määratud?
-Otseselt hakkaks koostöövõrgustikus osalema ministeeriumi tasandi peakoordinaator. Ministeeriumi koordinaator peaks kohtumistel kokku lepitud allasutuste koordinaatoriteni viima.
+Osa otseseid avalikke teenuseid võivad olla suunatud vaid teatud sihtrühmadele. Vastavalt sellele, mis sihtrühma klient kuulub, on piiratud juurdepääs ning informatsioon, mida kuvatakse.  
+Näiteks igal inimesel on juurdepääs oma andmetele rahvastikuregistris eesti.ee kaudu. Samas puudub juurdepääs teiste inimeste isikuandmetele. 
 
-### Kes on teenuste omanikud ja kes on teenuste sisestajad?
-Teenuste omanikud ja üldvastutaja/peakoordinaator peaks olema määratud asutuses ametikoha tasemel (juurde ka hetkel ametikohal oleva isiku kontaktid). Teenuste omanike määramisel lähtuda põhimõttest, et teenuse omanik on asutuses avaliku teenuse toimimise eest vastutav juhtimistase, kus on võimalus otseselt mõjutada avaliku teenuse rahastamisega seotud teenuse osutamise kvaliteedi leppeid ja avaliku teenuse osutamisega seotud tööprotsesse. Teenuste omanik peaks olema n.ö. äripoole ehk sisuvaldkonna esindaja. Teenuste sisestajad on need, kes hakkavad teenuste kataloogi kirjeldusi sisestama. Rollid võivad ka kattuda, kuid ei pruugi. Oleneb asutuse korraldusest. 
+### 10. Kuidas suhtuda teenustesse, kus riik on delegeerinud teenuse/teenuste osutamise riiklikule aktsiaseltsile volituse alusel?
 
-### Kuidas suhestub MKM teenuste kataloog eesti.ee (kontaktpunkt kodanikule) ja RIHA keskkondadega (veebiteenuste kirjeldus). Kas siin ei ole dubleerimist? Mis roll jääb eesti.ee - le edaspidi?
-Hetkel ei ole eesti.ee-s kuvatud ülevaadet kõikidest teenustest, mida riik pakub. Eesmärk on esmalt meie kataloogis kõik teenused ära kirjeldada. Seejärel vaatame edasi, kas kataloog sobiks pigem eesti.ee-sse või ehk eesti.ee koliks üle teenuste kataloogi. Dubleerida kindlasti ei soovi. 
-RIHA on riigi infosüsteemi kataloog. RIHA-s kirjeldatakse eelkõige infosüsteemide funktsionaalsust, sh milliseid veebiteenuseid/muid elektroonseid teenuseid pakutakse läbi teatud infosüsteemi. Teisisõnu kirjeldatakse peamiselt infotehnoloogilist poolt. Teenuste kataloogis lähtume pigem teenusepõhiselt, kirjeldades eelkõige teenuste (sh e-teenuste) ärilist poolt. RIHA on hetkel ümbertegemisel ning sellega on arvestatud, et lõppkasutajate teenuste kataloog hakkab RIHAga andmeid vahetama. Ei saa välistada, et funktsionaalsus kolib RIHA külge. See selgub RIHA arenduse käigus. Hetkel RIHAs kirjeldatud teenuseid kataloogi importima ei hakka, sest tihti pole tegemist nende teenustega, mis meie kataloogis olema hakkavad (kirjeldused ei vasta ka meie vormile). Tulevikus peaks tekkima seos n.ö. RIHAs kirjeldatud teenuste ja lõppkasutajate teenuste vahel (kas see tekib meie kataloogis või RIHAs, on hetkel lahtine).
+Teenuseid, mille osutamise on riik volituse alusel delegeerinud riigi osalusega äriühingule, sihtasutusele või mittetulundusühingute, võivad otsesed avalikud teenused. Selliste teenuste puhul täidab riiklik äriühing või organisatsioon avalikku ülesannet riigi volitusel. Juhul kui nende teenuste pakkumise eelduseks on isiku tuvastamine siis on tegemist otsese avaliku teenusega ja see kantakse kataloogi.
 
-### Kas koolituste saamiseks on oktoober viimane võimalus?
-Koolitusi saab läbi viia ka pärast oktoobrit. Oleme broneerinud alates oktoobri lõpust iga neljapäev aja (15.00-17.00), kus saab tulla konsultatsioonile/koolitusele vms. Eelnevalt tuleb lihtsalt registreerida aadressil riigiteenused@mkm.ee. 
+### 11. Kas riigilõivu maksmine eraldi ei ole teenus?
 
-### Kas jagate kuskil ka teenuste kataloogiga seonduvaid materjale ning kuidas soovite korraldada valitsemisala allasutustel teenuste omanike määramisel tekkida võivate küsimustele vastamise?
-Teenuste kataloogiga seotud materjalid on üles pandud [siia](https://github.com/MKM-ITAO/riigiteenused "https://github.com/MKM-ITAO/riigiteenused"). Ootame ettepanekuid, küsimusi ja tagasisidet [siia](https://github.com/MKM-ITAO/riigiteenused/issues) või e-posti aadressile riigiteenused@mkm.ee. Igal juhul oleks teretulnud lähenemine, kus teenuse omanik, küsides küsimust nimetatud e-posti vahendusel, eelnevalt oleks selle küsimuse üldvastutajaga läbi arutanud ning küsimuse saatmisel hoiaks üldvastutajat kirjavahetuses. Kirjade vahendajaks ja edasisaatjaks võib ka üldvastutaja olla, oluline on see, et info jõuaks kõikide asjasse puutuvate kolleegideni. 
+Riigilõivu maksmine ei ole eraldi teenus, vaid on osa teenusest. Maksetoiminguid ei kanta teenuste kataloogi eraldi teenustena.
 
-### Kas loote kasutajad teenuste kirjeldajatele/sisestajatele automaatselt?
-Kasutajaid automaatselt ei loo. Kui soov on saada kasutajaõigused teenuste kirjeldamise tööriistale (riigiteenused.ee), siis andke sellest teada e-posti aadressil riigiteenused@mkm.ee. 
+### 12. Millisel juhtimistasandil peaks olema haldusala üldkoordinaator?
 
-### Kas teenuste kirjeldajatel/sisestajatel peab olema kindlasti igal sisestajal oma konto või võib asutuses sisestada oma teenuseid ühe konto alt mitu erinevat kasutajat?
-Sooviksime, et igal sisestajal oleks oma individuaalne konto (ühe konto taga on üks konkreetne isik). Nii on tõrgete/ probleemide/ küsimuste korral teenuste kataloogi administraatoril lihtsam järge pidada, et kelle poole peaks pöörduma. Kui soov on näidata üldisemat pilti, siis selleks saab kasutada MKM-i [kodulehel](https://www.mkm.ee/et/statistika/ministeerium "https://www.mkm.ee/et/statistika/ministeerium") olevat teenuste kataloogi vaadet, kus on võimalik näha ülevaadet ka asutuste kaupa.
+Üldkoordinaator peaks omama ülevaadet kõikide ministeeriumi, ministeeriumi haldusala ametite/inspektsioonide poolt osutatavate teenuste osas. Oluline on see, et üldkoordinaatoril oleks juhtkonna tasandil nii sõna kui ka otsustusõigus küsimustes, mis puudutavad lõppkasutajatele (kodanik, ettevõtja) suunatud otseste avalike teenuste ja nende kanalite kvaliteeti (maksumus, ajakulu, rahulolu).
 
-### Kus leiab riigiteenused.ee-sse sisestatav informatsioon kasutust? Mida teeb MKM selle infoga?
-Sisestatud informatsioon võetakse arvesse SF rahade taotluste hindamisel, asutuste üleste projektide tegemisel, elusündmustega seotud teenuste grupeerimisel ning eelkõige saame  avalikkusele pakkuda struktureeritud vaadet teenuste kirjeldustest. 
+### 13. Kuidas võiks olla korraldatud valitsemisalas otseste avalike teenuste omanike määramise protsess ja info juhtimine (määramise ajal ning ka edaspidi) haldusala asutustega?
 
-### Küsimus kaardistamise tööriista kohta - kas keskkonnas on jooksvalt võimalik vaadata kõigil kõiki sisestusi?
-Riigiteenused.ee võimaldab Teil näha Teie asutuse poolt kirjeldatud teenuseid ning neid saab jooksvalt redigeerida/muuta jne. Hierarhia on üles ehitatud nii, et kõige madalamal on asutuse administraator, siis ministeeriumi administraator ning seejärel valitsuse administraator. Hetkel on valitsuse administraatori rollis meie (ITAO), kel on kogu ülevaade kõigi ministeeriumite ja asutuste lõikes. 
+Ideaalselt võiks nn teenuste üldvastutajate hierarhia välja näha nii, et ministeeriumi tasandil üldvastutaja koordineerib ministeeriumi haldusala ametite ja inspektsioonide üldvastutajaid. Infoühiskonna teenuste arendamise osakond (ITAO) omakorda koordineerib ministeeriumide üldvastutajaid. 
 
-### Kui teenus on üks, aga teenuse erinevad osad on erinevates kanalites, kuidas seda üles märkida?
+### 14. Kes on teenuste omanikud ja kes on teenuste sisestajad?
+
+Teenuste omanikud ja ministeeriumi valitsemisala koordinaator peaks olema määratud asutuses ametikoha tasemel Teenuse omanik on asutuses avaliku teenuse toimimise eest vastutav isik. Teenuste omanik peaks olema äripoole ehk teenuse sisulise poole eest vastutaja, mitte selle infotehnoloogia toimimise eest vastutav isik. Teenuste sisestaja on see, kellele on tehtud riigiteenused.ee portaalis kasutajakonto ja kes hakkab teenuseid kataloogi sisestama. Koordinaatori, teenuse omaniku ja sisestaja rollid võivad ka kattuda, aga ei pea.
+
+### 15. Kuidas suhestub MKM teenuste kataloog eesti.ee (kontaktpunkt kodanikule) ja RIHA keskkondadega (veebiteenuste kirjeldus). Kas siin ei ole dubleerimist? Mis roll jääb eesti.ee - le edaspidi?
+
+Nimetatud keskkondade vahel ei ole dubleerimist, kuna kõik kolm on erineva eesmärgi ja funksiooniga. Teenuste kataloogi eesmärk on saada terviklik ülevaade kõigist otsesest avalikest teenustest ja nende kvaliteedinäitajatest. Teenuste kataloog on eelkõige teenuste haldamise süsteem Eesti.ee eesmärk on ühtse kasutajakogemuse pakkumine riigis ning on mõeldud eeskätt selleks, et inimesed saaksid asjad riigiga aetud ühe kanali kaudu. RIHA on riigi infosüsteemide kataloog. RIHA-s kirjeldatakse eelkõige infosüsteemide funktsionaalsust, sh milliseid veebiteenuseid/muid elektroonseid teenuseid pakutakse läbi teatud infosüsteemi. Teisisõnu kirjeldatakse ja hallatakse seal infosüsteeme.
+
+### 16. Kas jagate kuskil ka teenuste kataloogiga seonduvaid materjale ning kuidas soovite korraldada valitsemisala allasutustel teenuste omanike määramisel tekkida võivate küsimustele vastamise?
+
+Probleemid ja ettepanekud saab saata e-posti aadressile riigiteenused@mkm.ee
+Täpsema info saamiseks võib kontakteeruda Kutt Kommeliga, kutt.kommel@mkm.ee, +37253426898. 
+
+Oluliste otseste avalike teenuste kvaliteedinäitajate esitamise juhis asub aadressil: https://www.mkm.ee/sites/default/files/content-editors/20180213_teenuste_kvaliteedi_juhis_atn_kinn.pdf
+
+Teenuste sisestamise ja haldamise juhend asub aadressil:
+https://www.mkm.ee/et/teenuste-sisestamise-ja-haldamise-juhend 
+
+### 17. Kas kasutaja kontod luuakse teenuste kirjeldajatele/sisestajatele automaatselt?
+
+Kasutajaid automaatselt ei looda. Kasutajaõiguste saamiseks tuleb pöörduda e-posti aadressile riigiteenused@mkm.ee või kutt.kommel@mkm.ee. Kasutajakonto loomiseks on vajalik isiku nimi ja isikukood.
+
+### 18. Kas teenuste kirjeldajatel/sisestajatel peab olema kindlasti igal sisestajal oma konto või võib asutuses sisestada oma teenuseid ühe konto alt mitu erinevat kasutajat?
+
+Teenuste sisestajate kontod on individuaalsed ja sisselogimine toimub ID kaardi või mobiil IDga,sellepärast peab igal sisestajal olema oma konto. Nii on tõrgete/ probleemide/ küsimuste korral teenuste kataloogi administraatoril lihtsam järge pidada, et kelle poole peaks pöörduma. Kui soov on näidata üldisemat pilti, siis selleks saab kasutada MKM-i kodulehel olevat teenuste kataloogi avalikku vaadet, kus on võimalik näha ülevaadet ka asutuste kaupa.
+
+### 19. Kus leiab riigiteenused.ee-sse sisestatav informatsioon kasutust? Mida teeb MKM selle infoga?
+
+Sisestatud informatsioon on oluline valdkondliku poliitika kujundamiseks, SF rahade taotluste hindamisel, asutuste üleste projektide tegemisel, elusündmustega seotud teenuste grupeerimisel ning eelkõige saame avalikkusele pakkuda struktureeritud vaadet teenuste kirjeldustest.
+
+### 20. Küsimus kaardistamise tööriista kohta - kas keskkonnas on jooksvalt võimalik vaadata kõigil kõiki sisestusi?
+
+Riigiteenused.ee keskkonda sisselogides on võimalik näha teie asutuse poolt kirjeldatud teenuseid ning neid saab jooksvalt parandada ja täiendada. Hierarhia on üles ehitatud nii, et kõige madalamal on asutuse administraator, siis ministeeriumi administraator ning seejärel valitsuse administraator. Kõrgemal tasemel administraatoril on võimalik parandada ja muuta madalama taseme teenuseid.
+
+### 21. Kui teenus on üks, aga teenuse erinevad osad on erinevates kanalites, kuidas seda üles märkida?
+
 Esiteks tuleks lähtuda kliendivaatest ning hinnata, kas ka klient tajub seda ühe teenusena. Kui jah, siis saab selle ühe teenusena kirja panna ning ära märkida kanalid, kust kaudu neid erinevaid osasid saab tarbida. Vastasel korral võib esialgses kirjelduses panna see kirja mitme teenusena.
 
-### Teenuse tüüpide/tegevusvaldkondade nimekiri on piiritletud ning ma ei leia oma teenusele vastavat tüüpi või tegevusvaldkonda. Kuidas peaksin käituma?
-Palun saatke meile tagasisidet kas aadressile riigiteenused@mkm.ee või on võimalik lisada oma ettepanekud [siia](https://github.com/MKM-ITAO/riigiteenused/issues "https://github.com/MKM-ITAO/riigiteenused/issues"). 
+### 22. Teenuse tüüpide/tegevusvaldkondade nimekiri on piiritletud ning ma ei leia oma teenusele vastavat tüüpi või tegevusvaldkonda. Kuidas peaksin käituma?
 
-### Kas ma pean kirja panema kõik kanalid läbi mille konkreetset teenust pakutakse? Kas võin kirja panna vaid prioriteetsemad kanalid?
-Palume kirja panna kõik kanalid. 
+Palun saatke meile tagasisidet kas aadressile riigiteenused@mkm.ee. 
 
-### Kanalite kasutamine on mõnel juhul tingimuslik. Kas võib, et kuvan vaid need kanalid, mis on alati olemas?
-Kui mõnel juhul on teatud kanalite kasutamine tingimuslik, siis pigem üles märkida need, mida klient saab igal juhul kasutada. 
+Küsimused ja ettepanekud võib saata ka vestlus.eesti.ee keskkonnas riigiteenused.ee avalikus vestluskanalis. Kanali leiab sellel aadressilt kui logida sisse vestlus.eesti.ee keskkonda. https://go.rocket.chat/invite?host=vestlus.eesti.ee&path=invite%2FBs4kTX
 
-### Mis on MKM-i ootus, kui tihti peaks infot teenuste kataloogis uuendama?
-Hetkel pole kokku lepitud uuenduste tegemise regulaarsuses. Lähtuda võiks sellest, et kliendile kuvatud info oleks alati aja- ja asjakohane.
+### 23.  Kas ma pean kirja panema kõik kanalid läbi mille konkreetset teenust pakutakse? Kas võin kirja panna vaid prioriteetsemad kanalid?
+
+Teenuste kataloogi on vaja sisestada kõik kanalid mille kaudu teenust võimaldatakse.
+
+### 24. Kanalite kasutamine on mõnel juhul tingimuslik. Kas võib, et kuvan vaid need kanalid, mis on alati olemas?
+
+Kui mõnel juhul on teatud kanalite kasutamine tingimuslik, siis pigem üles märkida need, mida klient saab igal juhul kasutada. Kirjeldatud kanalid on need, millele teenuste kataloog juhib teenusekasutajate tähelepanu, seega on need teenuse kasutajale soovitatavad kanalid.
+
+### 25. Mis on MKM-i ootus, kui tihti peaks infot teenuste kataloogis uuendama?
+
+Teenuste info ja kvaliteedinäitajad tuleb uuendada vähemalt kord aastas, iga aasta 31. jaanuariks eelneva kalendriaasta kohta.
+
