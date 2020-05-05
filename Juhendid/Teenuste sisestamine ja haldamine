@@ -1,0 +1,139 @@
+Teenuste sisestamine ja haldamine
+
+Teenuste kataloogi eesmärgid on:
+1) Ülevaate loomine riigiasutuste pakutavatest otsestest avalikest teenustest ja nende kvaliteedist; 
+2) Teenuste kasutajate rahulolu ja halduskoormuse võrdlemine;
+3) Teenuste leidmise ja kvaliteedi parandamine;
+4) Koostöös teiste teenusepakkujate ja muude osalistega teenuste korraldamine ja arendamine;
+Riigiteenuste kataloogi kantakse otsesed avalikud teenused ja nende statistilised kvaliteedinäitajad teenuse osutamise kanalite järgi. 
+Otsene avalik teenus vastavalt määrusele „Teenuste korraldamine ja teabehalduse alused“ on „teenus, mida asutus osutab asutus isikule tema tahtel, sealhulgas eeldataval tahtel, teeninduskontakti kaudu mis tahes suhtluskanalis ja mis võimaldab isikul täita seadusest tuleneva kohustuse või kasutada seadusest tulenevat õigust.“ Otsene avalik teenus eeldab isiku tuvastamist kas sisselogimise või muul viisil identifitseerimisega. 
+Teenuste kataloogi lisatavad otsesed avalikud teenused on näiteks mõne toetuse taotlemine, sünni- või elukoha registreerimine, majandustegevusest teatamine, aruande esitamine või muu toiming, mis eeldab kas füüsilise või juriidilise isiku pöördumist mõne riigiasutuse poole, kes vastavaid menetlusi või toiminguid teostab. Samuti lisatakse teenuste kataloogi proaktiivsed teenused, mida asutus pakub enda initsiatiivil isikule viimase eeldataval tahtel. 
+Teenuste kataloogi ei esitata tugi- ja kaudseid teenuseid, nagu näiteks teabe jagamist avalikul veebilehel (lahtiolekuaegu, avaandmeid jms), avalike hüvede pakkumist (näiteks avaliku korra tagamist või hariduspoliitika kujundamist). 
+
+Sisselogimine
+Riigiteenused.ee rakendusse sisselogimiseks ja teenuste info haldamiseks on vajalik kasutajakonto olemasolu riigiteenused.ee keskkonnas. Kasutajakonto saamiseks tuleb saata taotlus aadressile riigiteenused@mkm.ee. Taotlusesse lisage isiku nimi, isikukood ja tema roll (allasutuse administraator või ministeeriumi administraator).
+Rakendusse sisselogimine käib ID-kaardi või mobiil-IDga.
+Rakendusse sisselogimiseks mine URLile http://www.riigiteenused.ee/user, kus on kuvatud sisselogimise vorm. Pärast rakendusse sisse logimist on lehe päises kuvatud rakenduse põhimenüü:
+ 
+Teenuse loomine (teenuse sisutüüp)
+Uue teenuse loomiseks on kaks võimalust:
+•	valida põhimenüüst "Sisu" ning seejärel valida „Lisa sisu“ ja „Teenus“, mis asub lehekülje päises.
+•	valida avalehel "Lisa uus teenus" leheküljepäises  
+•	Teenuse lisaja saab valida, kas ta soovib teenuse sisestamisel kasutada menüüd eesti-, vene- või inglise keeles. Selleks tuleb menüü realt valida vastav keel. See valik ei muuda sisestatava teenuse keelt, mis võimaldab hiljem teenuseid keele järgi otsida.
+ 
+
+Teenuse kandmiseks riigiteenused.ee kataloogi tuleb täita järgnevad andmeväljad iga teenuse kanali kohta. Tärniga (*) märgitud andmete sisestamine kataloogi on kohustuslik.
+Keel
+Valida tuleb see keel, milles isikule teenust pakutakse. Kui teenust pakutakse mitmes keeles peab sama teenuse iga keele kohta lisama uuesti. Vaikimisi on määratud teenuse keeleks eesti keel.
+Teenuse osutaja:
+•	Haldusala * – Haldusala on  Riigikantselei või ministeeriumi haldusala, mille haldusalas on teenust osutav asutus. Haldusala on vaikimisi määratud.
+•	Allasutus * – Allasutuse loendist tuleb valida see asutuse, mis sisestatavat teenust osutab
+•	Allasutuse registrikood – Registrikood lisatakse automaatselt vastavalt allasutuse nimele.
+Teenuse üldandmed:
+•	Pealkiri * – Teenuse pealkirja väljale peab sisestama teenuse nimetuse lähtudes teenuse lõppkasutaja vaatest, kujul „millegi tegemine“, näiteks „…taotluse esitamine“, „… aruande esitamine“. Teenuse nimetus sisestatakse üldjuhul ainsuses (isik teeb reeglina ühe toimingu korraga ja üksik tegevus väljendab ka üldistust ning korduvaid tegevusi). Teenuse pealkiri kuvatakse kasutajale kataloogi avalikus vaates teenuste otsingus ja loetelus. Teenuse nimetuse maksimaalne tähemärkide arv on 220 tähemärki. 
+•	Teenuse prefix * – Teenuse osutamise eest vastutava asutuse lühend lisatakse automaatselt. Lühend on vajalik asutuste eristamiseks teenuste haldamisel.
+•	Tunnus * – Tunnus on kood, millega eristatakse teenuseid. Tunnus genereeritakse uue teenuse lisamisel automaatselt. 
+•	Kirjeldus * – Sellele väljale sisestatakse teenuse lühikirjeldus kasutajale. Teenuse kirjeldus kuvatakse teenuste kataloogi avalikus vaates kasutajale teenuste otsingu tulemuste vaates. Teenuse kirjelduse põhjal peab kliendile olema arusaadav pakutava teenuse eesmärk ja see kas kliendi jaoks on teenus antud olukorras asjakohane või mitte. Teenuse kirjelduse maksimaalne tähemärkide arv on 245 tähemärki.
+•	Sihtrühm * – Sihtrühm on isikute grupp, kellele teenus on suunatud. See kuvatakse kasutajale teenuste otsingu tulemuste vaates. Sihtrühm on kas eraisik ja/või juriidiline isik. Eraisik võib olla nii Eesti, mõne Euroopa Liidu liikmesriigi kui kolmandate riikide kodanik. Juriidilise isiku all on mõeldud eraõiguslikke juriidilisi isikuid (nii Eesti, ELi kui kolmandate riikide). 
+•	Elu- või ärisündmus * – Inimese elusündmus või ettevõtte ärisündmus, mis on selle teenusega seotud (nt. lapse sünd, ettevõtte asutamine).  
+•	TERE kood * – Sisestada tuleb selle teenusega seotud tegevuspõhise riigieelarve teenuse kood nende edaspidiseks sidumiseks.
+Teenuse omanik
+•	Nimi * – Sisestada tuleb asutuse poolt määratud isiku nimi, kes on vastutav teenuse osutamise, arendamise, haldamise ja kvaliteedi eest igal teenuse kanalil.
+•	E-post * – teenuse eest vastutava isiku e-posti aadress.
+•	Isikukood – sisestada tuleb teenuse eest vastutava isiku isikukood. Isikukoodi lisamisega annab teenuse omanik loa seda kasutada teiste ametiasutuste infosüsteemidega sidumiseks ja kontaktandmete uuendamiseks. Isikukoodi ei avaldata avalikus vaates ega kasutata muudel eesmärkidel. 
+Teenuste kanalid ja mõõdikud
+Teenuse kanalid ja mõõdikud on vajalikud võrreldavate andmete saamiseks teenuse kasutajate ja halduskulude kohta. Teenuste kvaliteedinäitajad esitatakse vastavalt „Oluliste otseste avalike teenuste kvaliteedinäitajate esitamise juhisele“: 
+Mõõtmise aasta (all languages)
+Mõõtmise aasta on kalendriaasta, mille kohta sisestatakse allolevad teenuse kvaliteedinäitajate andmed.
+Plokk: Mõõtmise kanal (all languages)
+Kanal * – Kanal on viis, mille kaudu teenust osutatakse, näiteks veebileht, e-post, teenindusbüroo, telefon. Iga teenuse juures saab sisestada mitu kanalit. Sisestada tuleb eraldi kõik teenuse kanalid, mis on olnud teenuse osutamisel aasta jooksul kasutuses (ka siis kui need aasta viimasel päeval enam kasutuses ei ole). Uue kanali lisamiseks vajuta plokis nuppu “Lisa uus“. Vajadusel on võimalik lisatud kanalit eemaldada vajutades nuppu „Eemalda“. 
+
+ 
+
+Viide teenusele * – Antud väljale tuleb sisestada teenuse veebiaadress/URL, kus kasutaja saab seda teenust kasutada või lisainformatsiooni selle kohta.
+Makse * – Näitab, kas see teenus on kasutajale tasuta, või tuleb selle teenuse kasutamise eest tasuda teenustasu või riigilõivu.
+Järgnevad väljad on statistilised näitajad, mida tuleb sisestada iga kanali kohta eraldi. Sisestada tuleb numbrilised väärtused kalendriaasta kohta kokku. Väljadele tuleb sisestada ainult numbreid, muude märkide sisestamine annab veateate.
+Teenuse osutamiste arv – Sisestada tuleb teenuste alustamiste koguarv samas plokis toodud teenuse kanalil, aruandeaasta kohta. Teenuse alustamiseks elektroonilistel kanalitel loetakse seda kui klient on esitanud täidetud vormi. Lugeda ei ole vaja neid juhtumeid, kus taotluse esitamiseni ei jõutud (näiteks klient hakkas avaldust täitma, kuid ei vajutanud nupule "Esita"). Teenindusbüroos, kliendi juures, telefoni teel või muul viisil suheldes on teenust alustatud, siis kui klient on identifitseeritud ja tema teenindamine registreeritakse asutuse infosüsteemi. Teenuse osutamise arvu võib täpse arvu puudumisel ümardada sadadesse.
+Aasta rahulolu (%) – Teenuste rahulolu mõõtmiseks kasutatakse soovitusindeksi meetodit (Net Promoter Score). Teenust kasutanud kliendil palutakse tal hinnata kas veebikeskkonnas või e-posti teel oma rahulolu selle kanali kaudu saadud teenusega (Kui tõenäoliselt ta soovitab seda teenust sõbrale või kolleegile?). Klient hindab teenust skaalal 0-10. Väärtus „0“ tähendab, et klient ei ole üldse rahul ja väärtus „10“ tähendab, et klient on selle teenusega täiesti rahul. Aasta rahulolu protsendi arvutamine on kirjeldatud dokumendis „Klienditagasiside projekti tulemused avalikus sektoris“.
+Aasta halduskulu (€) – Aasta halduskulu on selle teenuskanali palgakulu ja muude halduskulude summa. Halduskulu mida kasutatakse sama teenuse mitme erineva kanali haldamiseks jagatakse võrdselt kõigi kanalite vahel. Halduskulude alla ei loeta teenuse kaudu jagatud toetuste summasid (juhul kui teenuse kaudu eraldatakse toetusi) ja asutuse üldisi halduskulusid (näiteks asutuse juhtide palgakulu vms). Aasta halduskulu võib täpse arvu puudumisel ümardada tuhandetesse eurodesse. Tuleb silmas pidada, et ühe teenuse erinevate kanalite halduskulude summa ei saa ületada kogu teenuse halduskulu.
+Otsene ajakulu klientidele (h) – Otsene ajakulu on kliendil asutusega suhtlemiseks kulunud aeg (näiteks aeg mis kulus vormi täitmiseks ja edastamiseks, klienditeenindajaga suhtlemiseks). Väljale sisestatakse kõikide aasta jooksul seda teenusekanalit kasutanud klientide ajakulu summa tundides.
+Kogu ajakulu klientidele (päeva) – Kogu ajakulu kliendile on aeg avalduse täitmise algusest, kuni selleni millal kliendile väljastatakse toimingu või menetluse tulemus (näiteks dokument, luba, otsus, sissekanne vm toimingu tulemus). Väljale sisestatakse aasta jooksul kõigile klientidele, sellel teenuskanalil menetlusteks kulunud aja summa päevades.
+Uue teenuse lisamiseks vajuta plokist allapoole jäävat nuppu “Lisa uus“. Vajadusel on võimalik kogu teenuse sel aastal lisatud kanalite infot kustutada eemaldada vajutades nuppu „Eemalda“.
+ 
+Lisainfo 
+
+Lisainfo ja kommentaarid – Väljale lisainfo võib sisestada informatsiooni, mis on vajalikud teenuse omanikele või toimetajatele. Lisainfo välja ei näe teenuste kasutajad selle avalikus vaates. 
+Kirjeldatud teenuste avaldamine:
+Teenuse avaldamiseks tuleb pärast teenuse ja selle kanalite sisestamist vajutada selle all nuppu „Valmis ülevaatamiseks“
+Kui teenus on avaldamiseks valmis tuleb see avada teenuste loendist (see avaneb kui vajutada peamenüüs üleval vasakul nupule „Sisu“). Vajutades teenuse pealkirjale avaneb see eelvaates. Kui selle vaate all vajutada nupule „Modereeri“ avanevad teenuse uuenduste versioonid. Viimase versiooni vaikimisi valik on „Published“. Kui selle kõrval vajutada nuppu „Rakenda“ avaldatakse teenus avalikul veebilehel.
+Muu funktsionaalsus:
+•	Kui mõni kohustuslikest väljadest on täitmata, siis kuvatakse kasutajale veateade (enne ei saa teenust saata ülevaatamisele, kui kohustuslikud väljad on täidetud).
+Kirjeldatud teenuse salvestamine mustandina:
+Kui teenuse kirjeldus ei ole veel valmis ning soov on seda hiljem täiendada (teenust avaldamata), siis tuleb vajutada teenuskaardi lõpus nuppu "Salvesta mustandina". Sel juhul autor saab salvestada vahepealseid muudatusi senikaua kuni on kindel, et kõik vajalikud andmed on sisestatud. Toimetaja ei saa avalikustada teenust selles staatuses. Toimetaja töölauale teenus ülevaatamiseks ei lähe, vaid jääb kirjeldaja vaatesse.
+ 
+Mustandeid näeb lehel "Minu eelnõud":
+ 
+Kui teenuse kirjeldus on valmis, siis tuleb teenuse kirjeldus saata ülevaatamisele, vajutades nuppu "Valmis ülevaatamiseks".
+Muu funktsionaalsus:
+•	Teenuse kirjelduse mustandi saab salvestada ka nii, et kohustuslikud väljad jäävad täitmata
+Teenuse kanal ja prioriteedid
+Teenuste kanalite tüübid ja prioriteedid on järgmised:
+1.	Proaktiivne
+2.	E-iseteenindus
+3.	Eesti.ee
+4.	Chat/Chat bot
+5.	Kõnerobot
+6.	Sotsiaalmeedia
+7.	Nutirakendus
+8.	Veebileht/portaal
+9.	E-post
+10.	Telefon
+11.	Post
+12.	Tekstisõnum
+13.	Teenindusbüroo
+14.	Kasutaja juures
+Teenuste tõlkimine
+1)Ava kirjeldatud teenuse teenuskaart ning vajuta nupule "Tõlge":
+ 
+2)Jõuad tõlkimise vahelehele, kus saab kas:
+•	lisada tõlke "Lisa" nupule vajutades või
+•	muuta juba olemasolevat tõlget vajutades nuppu "Muuda".
+ 
+Uue tõlke lisamisel kopeeritakse automaatselt andmed teenuse originaalsest keelest (tavaliselt on selleks eesti keel) ning need tuleb siis tõlkida vastavasse keelde. Automaatselt tõlgitud on klassifikaatorid.
+Teenuste haldamine
+Teenuseid on kõige mugavam hallata (otsida, muuta jne) keskkonna “Sisu” leheküljel. Leiad selle põhimenüüst.
+Antud leheküljel saad:
+•	Alustada teenuse lisamist.
+•	Alustada teenuse muutmist.
+•	Kustutada sisu (sh. mitu erinevat teenust korraga).
+•	Otsida teenuseid. Kuvatud on info teenuse prefiksi ja tunnuse (moodustavad kokku teenuse ID-koodi), teenuse nime, staatuse, autori, teenuse omaniku nime, sihtgrupi, haldusala, allasutuse, makse tüübi, kanali aasta ja uuendamise kuupäeva järgi.
+ 
+Teenuste eksport:
+Teenuste nimekirja saab eksportida .csv ja .xlsx formaadis.
+ 
+Allalaaditud faili avades peaks silmas pidama, et kui teenusel on mitu kanalit, siis iga kanali, iga aasta kohta tekib faili eraldi rida.
+ 
+Importimisel jooksevad andmed erinevatelt ridadelt kokku ühte teenusesse.
+ 
+Teenuste import:
+Teenuste importimiseks vali menüüst "teenuste import".
+ 
+Vali üleslaaditav fail ning seejärel vajuta nuppu "Saada".
+ 
+Importimisel tehakse automaatkontrollid ning süsteem annab peale importimist teate, kas mõnes andmeväljas oli viga või mitte (vale väärtus, väärtus puudu vms). Kui vigu ei ole, vajuta "Jätka importi".
+ 
+Toimub andmete töötlemine.
+ 
+Kui andmete töötlemine lõpeb, suunatakse kasutaja tagasi "Sisu" lehele, kus teenustele, mida uuendati ilmub juurde märge "uuendatud" (see kaob pärast teenuskaardi avamist).
+ 
+Juhul, kui andmete üleslaadimisel on mõnes andmeväljas viga, annab süsteem veateate. Sel juhul tuleks teha parandused üleslaaditavad failis ning seejärel see uuesti importida.
+ 
+Kirjeldatud teenuste avaldamine: Näidetega kirjeldatud teenustest on võimalik tutvuda MKMi kodulehel, saki "haldusala teenused" alt.
+Versioneerimine:
+Teenuse versioonide nägemiseks ava teenuskaart ning vajuta nupule modereeri.
+ 
+Avaneb leht, kus on võimalik näha teenuse erinevaid versioone. Rohelisega on näidatud avaldatud versioon. Varasema versiooni vaatamiseks vajuta "Kuva", varasema versiooni avaldamiseks vajuta "Lähtesta".
+ 
+Kasutajatugi
+•	Probleemid ja ettepanekud saab saata e-posti aadressile riigiteenused@mkm.ee
+•	Täpsema info saamiseks võib kontakteeruda Kutt Kommeliga, kutt.kommel@mkm.ee, +37253426898. 
