@@ -6,30 +6,16 @@ __Projektijuht:__ [Risto Hinno](https://github.com/RRisto "https://github.com/RR
 
 Ministeerium | Isik | E-mail
 --- | --- | ---
-Haridus- ja Teadusministeerium	||	
-Kultuuriministeerium|	Merle Männik	| merle.mannik@kul.ee
+Haridus- ja Teadusministeerium	| Tatjana Kiilo |	tatjana.kiilo@hm.ee
+Kultuuriministeerium|	Mare Melder	| mare.melder@kul.ee
 Maaeluministeerium|	Sirli Kalbus|	sirli.kalbus@agri.ee
-Rahandusministeerium	|Kerstin Laidmäe|	kerstin.laidmae@fin.ee
-Justiitsministeerium|	Marit Karjus	|marit.karjus@just.ee
-Sotsiaalministeerium|	|	 
-Välisministeerium|	Hille Oidema |	hille.oidema@mfa.ee 
-Keskkonnaministeerium	|Kätlin Mandel |	katlin.mandel@envir.ee
-Siseministeerium|	Ülle Johanson|	ylle.johanson@siseministeerium.ee
-Kaitseministeerium	|Enely |	
-Riigikantselei|	Ilona Kään |	ilona.kaan@riigikantselei.ee
-
-
-Majandus- ja Kommunikatsiooniministeeriumi haldusala:
-
-Asutus | Isik | E-mail
---- | --- | ---
-Lennuamet|	Tiina Ester|	Tiina.Ester@ecaa.ee
-Riigi Infosüsteemi Amet	|Janne Tomberg	|janne.tomberg@ria.ee
-Tehnilise Järelevalve Amet	|Arvo Rammus|	arvo.rammus@tja.ee
-Tarbijakaitseamet|	Hanna Turetski|	hanna.turetski@tarbijakaitseamet.ee
-Maanteeamet|	Anne Nurmik|	anne.nurmik@mnt.ee
-Veeteede Amet|	Katriin Pellä|	katriin.pella@vta.ee
-
-
-
+Rahandusministeerium	| Merje Frey |	merje.frey@fin.ee
+Justiitsministeerium|	Liis Didvig	| liis.didvig@just.ee
+Sotsiaalministeerium|	Kristiina Hunt | kristiina.hunt@sm.ee
+Välisministeerium|	Ergo Tars |	ergo.tars@mfa.ee 
+Keskkonnaministeerium	| Marit Altvälja  |	marit.altvalja@envir.ee
+Siseministeerium|	Ülle Johanson |	ylle.johanson@siseministeerium.ee
+Kaitseministeerium	| Kristel Ilumäe |	kristel.ilumae@kaitseministeerium.ee
+Riigikantselei|	Kaire Karp  |	kaire.karp@riigikantselei.ee
+Majandus- ja Kommunikatsiooniministeerium | | 
 
