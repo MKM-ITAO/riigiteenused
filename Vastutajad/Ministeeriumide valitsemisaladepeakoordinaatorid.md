@@ -1,9 +1,5 @@
 ## Valitsemisalade koordinaatorid
 
-[Riigiteenuste kaardistamise ja kirjeldamise projekti](https://github.com/MKM-ITAO/riigiteenused) koordinaatorid.
-
-__Projektijuht:__ [Risto Hinno](https://github.com/RRisto "https://github.com/RRisto")
-
 Ministeerium | Isik | E-mail
 --- | --- | ---
 Haridus- ja Teadusministeerium	| Tatjana Kiilo |	tatjana.kiilo@hm.ee
